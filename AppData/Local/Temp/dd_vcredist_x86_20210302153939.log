@@ -1,0 +1,50 @@
+[1338:2B6C][2021-03-02T15:39:39]i001: Burn v3.7.2002.0, Windows v6.3 (Build 9600: Service Pack 0), path: F:\install\vcredist_x86.exe, cmdline: '/qb /passive -burn.unelevated BurnPipe.{CF2CD4B5-E5BD-4D4E-A712-CF3392414EC4} {016506D9-7F72-49E2-8751-78B410BBE9D5} 7188'
+[1338:2B6C][2021-03-02T15:39:39]i000: Setting string variable 'WixBundleLog' to value 'C:\Users\HUSTAR06\AppData\Local\Temp\dd_vcredist_x86_20210302153939.log'
+[1338:2B6C][2021-03-02T15:39:39]i000: Setting string variable 'WixBundleOriginalSource' to value 'F:\install\vcredist_x86.exe'
+[1338:2B6C][2021-03-02T15:39:40]i000: Setting string variable 'WixBundleName' to value 'Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.21005'
+[1338:2B6C][2021-03-02T15:39:40]i100: Detect begin, 2 packages
+[1338:2B6C][2021-03-02T15:39:40]i101: Detected package: vcRuntimeMinimum_x86, state: Absent, cached: None
+[1338:2B6C][2021-03-02T15:39:40]i101: Detected package: vcRuntimeAdditional_x86, state: Absent, cached: None
+[1338:2B6C][2021-03-02T15:39:40]i052: Condition 'VersionNT >= v6.0 OR (VersionNT = v5.1 AND ServicePackLevel >= 2) OR (VersionNT = v5.2 AND ServicePackLevel >= 1)' evaluates to true.
+[1338:2B6C][2021-03-02T15:39:40]i199: Detect complete, result: 0x0
+[1338:2B6C][2021-03-02T15:39:40]i200: Plan begin, 2 packages, action: Install
+[1338:2B6C][2021-03-02T15:39:40]i000: Setting string variable 'WixBundleRollbackLog_vcRuntimeMinimum_x86' to value 'C:\Users\HUSTAR06\AppData\Local\Temp\dd_vcredist_x86_20210302153939_0_vcRuntimeMinimum_x86_rollback.log'
+[1338:2B6C][2021-03-02T15:39:40]i000: Setting string variable 'WixBundleLog_vcRuntimeMinimum_x86' to value 'C:\Users\HUSTAR06\AppData\Local\Temp\dd_vcredist_x86_20210302153939_0_vcRuntimeMinimum_x86.log'
+[1338:2B6C][2021-03-02T15:39:40]i000: Setting string variable 'WixBundleRollbackLog_vcRuntimeAdditional_x86' to value 'C:\Users\HUSTAR06\AppData\Local\Temp\dd_vcredist_x86_20210302153939_1_vcRuntimeAdditional_x86_rollback.log'
+[1338:2B6C][2021-03-02T15:39:40]i000: Setting string variable 'WixBundleLog_vcRuntimeAdditional_x86' to value 'C:\Users\HUSTAR06\AppData\Local\Temp\dd_vcredist_x86_20210302153939_1_vcRuntimeAdditional_x86.log'
+[1338:2B6C][2021-03-02T15:39:40]i201: Planned package: vcRuntimeMinimum_x86, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[1338:2B6C][2021-03-02T15:39:40]i201: Planned package: vcRuntimeAdditional_x86, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[1338:2B6C][2021-03-02T15:39:40]i299: Plan complete, result: 0x0
+[1338:2B6C][2021-03-02T15:39:40]i300: Apply begin
+[1C14:3924][2021-03-02T15:39:40]i360: Creating a system restore point.
+[1C14:3924][2021-03-02T15:39:45]i361: Created a system restore point.
+[1C14:3924][2021-03-02T15:39:45]i000: Caching bundle from: 'C:\Users\HUSTAR06\AppData\Local\Temp\{ce085a78-074e-4823-8dc1-8a721b94b76d}\.be\vcredist_x86.exe' to: 'C:\ProgramData\Package Cache\{ce085a78-074e-4823-8dc1-8a721b94b76d}\vcredist_x86.exe'
+[1C14:3924][2021-03-02T15:39:45]i320: Registering bundle dependency provider: {ce085a78-074e-4823-8dc1-8a721b94b76d}, version: 12.0.21005.1
+[1C14:1F68][2021-03-02T15:39:45]i305: Verified acquired payload: vcRuntimeMinimum_x86 at path: C:\ProgramData\Package Cache\.unverified\vcRuntimeMinimum_x86, moving to: C:\ProgramData\Package Cache\{13A4EE12-23EA-3371-91EE-EFB36DDFFF3E}v12.0.21005\packages\vcRuntimeMinimum_x86\vc_runtimeMinimum_x86.msi.
+[1C14:1F68][2021-03-02T15:39:45]i305: Verified acquired payload: cab54A5CABBE7274D8A22EB58060AAB7623 at path: C:\ProgramData\Package Cache\.unverified\cab54A5CABBE7274D8A22EB58060AAB7623, moving to: C:\ProgramData\Package Cache\{13A4EE12-23EA-3371-91EE-EFB36DDFFF3E}v12.0.21005\packages\vcRuntimeMinimum_x86\cab1.cab.
+[1C14:1F68][2021-03-02T15:39:45]i305: Verified acquired payload: vcRuntimeAdditional_x86 at path: C:\ProgramData\Package Cache\.unverified\vcRuntimeAdditional_x86, moving to: C:\ProgramData\Package Cache\{F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185}v12.0.21005\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi.
+[1C14:1F68][2021-03-02T15:39:45]i305: Verified acquired payload: cabB3E1576D1FEFBB979E13B1A5379E0B16 at path: C:\ProgramData\Package Cache\.unverified\cabB3E1576D1FEFBB979E13B1A5379E0B16, moving to: C:\ProgramData\Package Cache\{F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185}v12.0.21005\packages\vcRuntimeAdditional_x86\cab1.cab.
+[1C14:3924][2021-03-02T15:39:45]i301: Applying execute package: vcRuntimeMinimum_x86, action: Install, path: C:\ProgramData\Package Cache\{13A4EE12-23EA-3371-91EE-EFB36DDFFF3E}v12.0.21005\packages\vcRuntimeMinimum_x86\vc_runtimeMinimum_x86.msi, arguments: ' MSIFASTINSTALL="7" NOVSUI="1"'
+[1338:2B6C][2021-03-02T15:39:46]i319: Applied execute package: vcRuntimeMinimum_x86, result: 0x0, restart: None
+[1C14:3924][2021-03-02T15:39:46]i325: Registering dependency: {ce085a78-074e-4823-8dc1-8a721b94b76d} on package provider: Microsoft.VS.VC_RuntimeMinimumVSU_x86,v12, package: vcRuntimeMinimum_x86
+[1C14:3924][2021-03-02T15:39:46]i301: Applying execute package: vcRuntimeAdditional_x86, action: Install, path: C:\ProgramData\Package Cache\{F8CFEB22-A2E7-3971-9EDA-4B11EDEFC185}v12.0.21005\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi, arguments: ' MSIFASTINSTALL="7" NOVSUI="1"'
+[1338:2B6C][2021-03-02T15:39:46]i319: Applied execute package: vcRuntimeAdditional_x86, result: 0x0, restart: None
+[1C14:3924][2021-03-02T15:39:46]i325: Registering dependency: {ce085a78-074e-4823-8dc1-8a721b94b76d} on package provider: Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v12, package: vcRuntimeAdditional_x86
+[1338:2B6C][2021-03-02T15:39:47]i399: Apply complete, result: 0x0, restart: None, ba requested restart:  No
+[1338:2B6C][2021-03-02T15:39:47]i500: Shutting down, exit code: 0x0
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: VersionNT = 10.0.0.0
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleAction = 4
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleElevated = 1
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleInstalled = 0
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleLog = C:\Users\HUSTAR06\AppData\Local\Temp\dd_vcredist_x86_20210302153939.log
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleLog_vcRuntimeAdditional_x86 = C:\Users\HUSTAR06\AppData\Local\Temp\dd_vcredist_x86_20210302153939_1_vcRuntimeAdditional_x86.log
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleLog_vcRuntimeMinimum_x86 = C:\Users\HUSTAR06\AppData\Local\Temp\dd_vcredist_x86_20210302153939_0_vcRuntimeMinimum_x86.log
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleManufacturer = Microsoft Corporation
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleName = Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.21005
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleOriginalSource = F:\install\vcredist_x86.exe
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleProviderKey = {ce085a78-074e-4823-8dc1-8a721b94b76d}
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleRollbackLog_vcRuntimeAdditional_x86 = C:\Users\HUSTAR06\AppData\Local\Temp\dd_vcredist_x86_20210302153939_1_vcRuntimeAdditional_x86_rollback.log
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleRollbackLog_vcRuntimeMinimum_x86 = C:\Users\HUSTAR06\AppData\Local\Temp\dd_vcredist_x86_20210302153939_0_vcRuntimeMinimum_x86_rollback.log
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleTag = 
+[1338:2B6C][2021-03-02T15:39:47]i410: Variable: WixBundleVersion = 12.0.21005.1
+[1338:2B6C][2021-03-02T15:39:47]i007: Exit code: 0x0, restarting: No

@@ -1,0 +1,40 @@
+---------------Start
+Time : 2021.3.2 - 6:40:45
+-Windows x64
+-****Test Source Path****
+-C:\Program Files (x86)\Hnc\Office 2020\HncUtils\HancomPDF\SetupDriver.exe
+-****Test Source Path2****
+-C:\Program Files (x86)\Hnc\Office 2020\HncUtils\HancomPDF
+-Copy to GetPrinterDriverDirectory
+-C:\WINDOWS\system32\spool\DRIVERS\x64
+---------------------------------- Start AddMonitor -----
+-위에 등록된 모니터 포트 메세지가 없다면 등록해야 하는 상황임
+-C:\WINDOWS\system32\HNCE2PPRMONP.dll
+-C:\Program Files (x86)\Hnc\Office 2020\HncUtils\HancomPDF\x64\HNCE2PPRMONP.dll
+-Windows x64
+---------------------------------- End   AddMonitor -----
+-Install - AddPort - OK
+Error Message--0 --- 작업을 완료했습니다.
+
+-Install - AddPrinterDriver()
+Error Message--0 --- 작업을 완료했습니다.
+
+-Copy to GetPrinterDriverDirectory, Resource File
+-C:\WINDOWS\system32\spool\DRIVERS\x64
+-Copy File Error
+Error Message--32 --- 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다.
+
+-C:\WINDOWS\system32\spool\DRIVERS\x64\3\HNCE2PPRUIP.kor
+-C:\Program Files (x86)\Hnc\Office 2020\HncUtils\HancomPDF\x64\HNCE2PPRUIP.kor
+-Install - AddPrinter()
+Error Message--0 --- 작업을 완료했습니다.
+
+-Hancom PDF Port
+-Hancom PDF
+-Hancom PDF
+-(null)
+-Register set Source Path - 
+-Registry RunOnce
+Error Message--0 --- 작업을 완료했습니다.
+
+-C:\Program Files (x86)\Hnc\Office 2020\\SetupDriver.exe /r

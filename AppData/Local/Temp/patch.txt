@@ -1,0 +1,63 @@
+kakaotalk
+new
+3.2.3.2698
+old
+3.2.2.2694
+old~1
+3.2.2.2692
+old~2
+3.2.1.2681
+priority
+0
+removed
+0
+removed~1
+0
+removed~2
+36
+skin\default\layout\WarehouseDatePickerView.xml
+skin\default\image\svgs\warehouse\storage_search_close_active.svg
+skin\default\image\2.0\notice_bg_hover.9.png
+skin\default\image\svgs\warehouse\storage_search_close.svg
+skin\default\layout\backgroundselectview\ChatBackgroundColorView_v3.xml
+skin\default\image\2.0\x1.5\btn_calendar_disable.9.png
+skin\default\image\2.0\x1.25\btn_calendar_disable.9.png
+skin\default\image\2.0\x1.25\btn_calendar_non.9.png
+skin\default\image\2.0\x1.25\btn_calendar_normal.9.png
+skin\default\image\2.0\x2.0\btn_calendar_non.9.png
+skin\default\image\2.0\x1.5\btn_calendar_normal.9.png
+skin\default\image\2.0\btn_calendar_hover.9.png
+skin\default\image\2.0\x1.25\btn_calendar_hover.9.png
+skin\default\image\2.0\btn_calendar_non.9.png
+skin\default\image\2.0\btn_calendar_disable.9.png
+skin\default\image\2.0\x2.0\btn_calendar_disable.9.png
+skin\default\image\2.0\x1.25\btn_calendar_selected.9.png
+skin\default\image\2.0\x1.5\icon_more_notice.png
+skin\default\image\2.0\btn_calendar_selected.9.png
+skin\default\image\2.0\x1.25\icon_more_notice.png
+skin\default\image\2.0\x2.0\icon_more_notice.png
+skin\default\image\2.0\x2.0\btn_calendar_normal.9.png
+skin\default\image\2.0\icon_more_notice.png
+skin\default\image\2.0\notice_bg_normal.9.png
+skin\default\image\2.0\btn_calendar_normal.9.png
+skin\default\image\2.0\x1.5\btn_calendar_non.9.png
+skin\default\image\3.0\svgs\emoticon_icon_empty_setting.svg
+skin\default\image\2.0\x1.5\btn_calendar_hover.9.png
+skin\default\image\svgs\warehouse\chatlist_beta_badge_teamchat.svg
+skin\default\image\2.0\x2.0\btn_calendar_hover.9.png
+skin\default\layout\backgroundselectview\ChatBackgroundIllustView_v3.xml
+skin\default\image\svgs\warehouse\storage_btn_oval.svg
+skin\default\image\2.0\x1.5\btn_calendar_selected.9.png
+skin\default\layout\backgroundselectview\ChatBackgroundCustomView_v3.xml
+skin\default\image\2.0\x2.0\btn_calendar_selected.9.png
+skin\default\layout\backgroundselectview\ChatBackgroundSelectView_v3.xml
+kakaoupdate
+KakaoUpdate.exe 0 515688 3658697560
+pak
+4
+kakaotalk_3.2.3.2698_full.pak 0 65237025 532247800
+kakaotalk_3.2.2.2694_3.2.3.2698_diff.pak 1 21427490 3177933155
+kakaotalk_3.2.2.2692_3.2.3.2698_diff.pak 2 21427490 3177933155
+kakaotalk_3.2.1.2681_3.2.3.2698_diff.pak 3 22089611 3000293935
+
+signature n4QF3YEADXXsc1EfHDSIeg/yJSQOkgGVJqLmrPVGl527b5cCUG7YcKXY6IHoKTkmLMfy6X9/mFwWe46w+fR8PswivY1DgsmV+EXpCKpSOTNAg6MKwte7mjhjY8evncFzJdQ4HKq7CKefy5BeYvC+POSKTpejWdAeaJW7J0VRoyM=

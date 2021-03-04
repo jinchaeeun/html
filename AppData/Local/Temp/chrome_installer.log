@@ -1,0 +1,167 @@
+[0302/124745.036:VERBOSE1:setup_main.cc(1321)] Command Line: "C:\Program Files (x86)\Google\Update\Install\{54F54E29-C69B-4209-A3D0-6ABFBF9B8A2D}\CR_CC2C4.tmp\setup.exe" --install-archive="C:\Program Files (x86)\Google\Update\Install\{54F54E29-C69B-4209-A3D0-6ABFBF9B8A2D}\CR_CC2C4.tmp\CHROME.PACKED.7Z" --verbose-logging --do-not-launch-chrome --system-level /installerdata="C:\WINDOWS\TEMP\guiF429.tmp"
+[0302/124745.036:VERBOSE1:setup_main.cc(1327)] system install is 1
+[0302/124745.036:VERBOSE1:install_util.cc(224)] No existing Chrome install found.
+[0302/124745.036:VERBOSE1:installer_state.cc(86)] Install Chrome
+[0302/124745.051:VERBOSE1:install_util.cc(253)] Windows NT 10.0.18362
+[0302/124745.051:VERBOSE1:install_util.cc(224)] No existing Chrome install found.
+[0302/124745.051:VERBOSE1:installer_state.cc(86)] Install Chrome
+[0302/124745.051:VERBOSE1:setup_main.cc(672)] Installing to C:\Program Files\Google\Chrome\Application
+[0302/124745.051:VERBOSE1:setup_main.cc(579)] Created path C:\Program Files\Google\Chrome\Temp
+[0302/124745.051:VERBOSE1:setup_main.cc(1085)] Installing Chrome from compressed archive C:\Program Files (x86)\Google\Update\Install\{54F54E29-C69B-4209-A3D0-6ABFBF9B8A2D}\CR_CC2C4.tmp\CHROME.PACKED.7Z
+[0302/124745.051:VERBOSE1:lzma_util.cc(119)] Opening archive C:\Program Files (x86)\Google\Update\Install\{54F54E29-C69B-4209-A3D0-6ABFBF9B8A2D}\CR_CC2C4.tmp\CHROME.PACKED.7Z
+[0302/124745.067:VERBOSE1:lzma_util.cc(125)] Uncompressing archive to path C:\Program Files\Google\Chrome\Temp\source8524_411640852
+[0302/124748.823:VERBOSE1:lzma_util.cc(119)] Opening archive C:\Program Files\Google\Chrome\Temp\source8524_411640852\chrome.7z
+[0302/124748.823:VERBOSE1:lzma_util.cc(125)] Uncompressing archive to path C:\Program Files\Google\Chrome\Temp\source8524_411640852
+[0302/124749.525:VERBOSE1:setup_main.cc(1144)] unpacked to C:\Program Files\Google\Chrome\Temp\source8524_411640852
+[0302/124749.525:VERBOSE1:setup_util.cc(265)] Looking for Chrome version folder under C:\Program Files\Google\Chrome\Temp\source8524_411640852\Chrome-bin
+[0302/124749.525:VERBOSE1:setup_util.cc(276)] directory found: 88.0.4324.190
+[0302/124749.525:VERBOSE1:setup_main.cc(1154)] version to install: 88.0.4324.190
+[0302/124749.525:VERBOSE1:install.cc(309)] Successfully wrote chrome.VisualElementsManifest.xml to C:\Program Files\Google\Chrome\Temp\source8524_411640852\Chrome-bin
+[0302/124749.525:VERBOSE1:install_worker.cc(947)] Adding unregistration items for per-user Metro keys.
+[0302/124749.525:VERBOSE1:install_worker.cc(970)] Adding registration items for Active Setup.
+[0302/124749.525:VERBOSE1:work_item_list.cc(33)] Beginning execution of work item list 
+[0302/124749.525:VERBOSE1:create_dir_work_item.cc(31)] creating directory C:\Program Files\Google\Chrome\Temp
+[0302/124749.525:VERBOSE1:create_dir_work_item.cc(31)] creating directory C:\Program Files\Google\Chrome\Application
+[0302/124749.525:VERBOSE1:create_dir_work_item.cc(36)] Top directory that needs to be created: C:\Program Files\Google\Chrome\Application
+[0302/124749.525:VERBOSE1:create_dir_work_item.cc(39)] Created directory
+[0302/124749.525:VERBOSE1:create_dir_work_item.cc(31)] creating directory C:\Program Files\Google\Chrome\Application\SetupMetrics
+[0302/124749.525:VERBOSE1:create_dir_work_item.cc(36)] Top directory that needs to be created: C:\Program Files\Google\Chrome\Application\SetupMetrics
+[0302/124749.525:VERBOSE1:create_dir_work_item.cc(39)] Created directory
+[0302/124749.572:VERBOSE1:copy_tree_work_item.cc(93)] Copied source C:\Program Files\Google\Chrome\Temp\source8524_411640852\Chrome-bin\chrome.exe to destination C:\Program Files\Google\Chrome\Application\chrome.exe
+[0302/124749.572:VERBOSE1:move_tree_work_item.cc(88)] Moved source C:\Program Files\Google\Chrome\Temp\source8524_411640852\Chrome-bin\chrome.VisualElementsManifest.xml to destination C:\Program Files\Google\Chrome\Application\chrome.VisualElementsManifest.xml
+[0302/124749.572:VERBOSE1:move_tree_work_item.cc(88)] Moved source C:\Program Files\Google\Chrome\Temp\source8524_411640852\Chrome-bin\88.0.4324.190 to destination C:\Program Files\Google\Chrome\Application\88.0.4324.190
+[0302/124749.572:VERBOSE1:create_dir_work_item.cc(31)] creating directory C:\Program Files\Google\Chrome\Application\88.0.4324.190\Installer
+[0302/124749.572:VERBOSE1:create_dir_work_item.cc(36)] Top directory that needs to be created: C:\Program Files\Google\Chrome\Application\88.0.4324.190\Installer
+[0302/124749.572:VERBOSE1:create_dir_work_item.cc(39)] Created directory
+[0302/124749.572:VERBOSE1:copy_tree_work_item.cc(93)] Copied source C:\Program Files (x86)\Google\Update\Install\{54F54E29-C69B-4209-A3D0-6ABFBF9B8A2D}\CR_CC2C4.tmp\setup.exe to destination C:\Program Files\Google\Chrome\Application\88.0.4324.190\Installer\setup.exe
+[0302/124749.572:VERBOSE1:copy_tree_work_item.cc(93)] Copied source C:\Program Files (x86)\Google\Update\Install\{54F54E29-C69B-4209-A3D0-6ABFBF9B8A2D}\CR_CC2C4.tmp\setup.exe to destination C:\Program Files\Google\Chrome\Application\88.0.4324.190\Installer\chrmstp.exe
+[0302/124749.588:VERBOSE1:move_tree_work_item.cc(88)] Moved source C:\Program Files\Google\Chrome\Temp\source8524_411640852\chrome.7z to destination C:\Program Files\Google\Chrome\Application\88.0.4324.190\Installer\chrome.7z
+[0302/124749.588:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome
+[0302/124749.588:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}
+[0302/124749.588:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96} or Value: oopcrashes does not exist.
+[0302/124749.588:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Google\Chrome\Metro
+[0302/124749.588:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Google\Chrome\Metro
+[0302/124749.588:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Microsoft\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}
+[0302/124749.588:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}\Commands
+[0302/124749.588:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}\Commands\on-os-upgrade
+[0302/124749.588:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}\Commands\on-os-upgrade or Value: SendsPings does not exist.
+[0302/124749.588:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}\Commands\on-os-upgrade or Value: WebAccessible does not exist.
+[0302/124749.588:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}\Commands\on-os-upgrade or Value: RunAsUser does not exist.
+[0302/124749.588:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}\Commands\store-dmtoken
+[0302/124749.588:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}\Commands\store-dmtoken or Value: SendsPings does not exist.
+[0302/124749.588:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}\Commands\store-dmtoken or Value: AutoRunOnOSUpgrade does not exist.
+[0302/124749.588:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}\Commands\store-dmtoken or Value: RunAsUser does not exist.
+[0302/124749.588:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Classes\CLSID\{A2C6CB58-C076-425C-ACB7-6D19D64428CD}
+[0302/124749.588:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Classes\CLSID\{A2C6CB58-C076-425C-ACB7-6D19D64428CD}
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\CLSID\{A2C6CB58-C076-425C-ACB7-6D19D64428CD}
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\CLSID\{A2C6CB58-C076-425C-ACB7-6D19D64428CD}\LocalServer32
+[0302/124749.604:VERBOSE1:install_service_work_item_impl.cc(180)] Attempting to install new service following failure to open: 지정된 서비스가 설치된 서비스로는 없습니다. (0x424)
+[0302/124749.604:VERBOSE1:work_item_list.cc(33)] Beginning execution of work item list 
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\CLSID\{708860E0-F641-4611-8895-7D867DD3675B}
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\AppID\{708860E0-F641-4611-8895-7D867DD3675B}
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\Interface\{463ABECF-410D-407F-8AF5-0DF35A005CC8}
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\Interface\{463ABECF-410D-407F-8AF5-0DF35A005CC8}\ProxyStubClsid32
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\Interface\{463ABECF-410D-407F-8AF5-0DF35A005CC8}\TypeLib
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\TypeLib\{463ABECF-410D-407F-8AF5-0DF35A005CC8}
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\TypeLib\{463ABECF-410D-407F-8AF5-0DF35A005CC8}\1.0
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\TypeLib\{463ABECF-410D-407F-8AF5-0DF35A005CC8}\1.0\0
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\TypeLib\{463ABECF-410D-407F-8AF5-0DF35A005CC8}\1.0\0\win32
+[0302/124749.604:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\TypeLib\{463ABECF-410D-407F-8AF5-0DF35A005CC8}\1.0\0\win64
+[0302/124749.604:VERBOSE1:work_item_list.cc(54)] Successful execution of work item list 
+[0302/124749.604:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\ClientState\{8A69D345-D564-463c-AFF1-A69D9E530F96} or Value: DowngradeVersion does not exist.
+[0302/124749.604:VERBOSE1:conditional_work_item_list.cc(16)] Evaluating InUseUpdateWorkItemList condition...
+[0302/124749.604:VERBOSE1:conditional_work_item_list.cc(21)] No work to do in condition work item list InUseUpdateWorkItemList
+[0302/124749.604:VERBOSE1:conditional_work_item_list.cc(16)] Evaluating RegularUpdateWorkItemList condition...
+[0302/124749.604:VERBOSE1:conditional_work_item_list.cc(18)] Beginning conditional work item list
+[0302/124749.604:VERBOSE1:work_item_list.cc(33)] Beginning execution of work item list RegularUpdateWorkItemList
+[0302/124749.604:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96} or Value: channel does not exist.
+[0302/124749.604:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96} or Value: opv does not exist.
+[0302/124749.604:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96} or Value: cpv does not exist.
+[0302/124749.604:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96} or Value: cmd does not exist.
+[0302/124749.635:VERBOSE1:copy_tree_work_item.cc(93)] Copied source C:\Program Files\Google\Chrome\Temp\source8524_411640852\Chrome-bin\chrome_proxy.exe to destination C:\Program Files\Google\Chrome\Application\chrome_proxy.exe
+[0302/124749.635:VERBOSE1:work_item_list.cc(54)] Successful execution of work item list RegularUpdateWorkItemList
+[0302/124749.635:VERBOSE1:work_item_list.cc(54)] Successful execution of work item list 
+[0302/124749.635:VERBOSE1:install.cc(202)] First install of version 88.0.4324.190
+[0302/124749.635:VERBOSE1:install.cc(118)] Creating all-users Desktop "Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0302/124749.682:VERBOSE1:install.cc(118)] Creating per-user Quick Launch "Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0302/124749.682:VERBOSE1:install.cc(118)] Creating all-users Start menu "Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0302/124749.697:VERBOSE1:install.cc(136)] Adding Chrome to Media player list at Software\Microsoft\MediaPlayer\ShimInclusionList\chrome.exe
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Microsoft\MediaPlayer\ShimInclusionList
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Microsoft\MediaPlayer\ShimInclusionList\chrome.exe
+[0302/124749.697:VERBOSE1:setup_util.cc(640)] Registering Chrome's event log provider at SYSTEM\CurrentControlSet\Services\EventLog\Application\Chrome
+[0302/124749.697:VERBOSE1:work_item_list.cc(33)] Beginning execution of work item list Register event log provider
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created SYSTEM\CurrentControlSet\Services\EventLog\Application\Chrome
+[0302/124749.697:VERBOSE1:work_item_list.cc(54)] Successful execution of work item list Register event log provider
+[0302/124749.697:VERBOSE1:install.cc(433)] Registering Chrome as browser: C:\Program Files\Google\Chrome\Application\chrome.exe
+[0302/124749.697:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Classes\Chrome\.exe\shell\run
+[0302/124749.697:VERBOSE1:work_item_list.cc(33)] Beginning execution of work item list 
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\ChromeHTML
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\ChromeHTML\DefaultIcon
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\ChromeHTML\shell
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\ChromeHTML\shell\open
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\ChromeHTML\shell\open\command
+[0302/124749.697:VERBOSE1:delete_reg_value_work_item.cc(44)] (delete value) Key: Software\Classes\ChromeHTML\shell\open\command or Value: DelegateExecute does not exist.
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\ChromeHTML\Application
+[0302/124749.697:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Classes\Chrome\.exe\shell
+[0302/124749.697:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Classes\Chrome\.exe\shell\open
+[0302/124749.697:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Classes\Chrome\.exe\shell\open\command
+[0302/124749.697:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Classes\Chrome\.exe\shell\open\command
+[0302/124749.697:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Classes\Chrome\.exe\shell\opennewwindow
+[0302/124749.697:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Classes\Chrome\.exe\shell\opennewwindow
+[0302/124749.697:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Classes\Chrome\.exe\shell\opennewwindow\command
+[0302/124749.697:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Classes\Chrome\.exe\shell\opennewwindow\command
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\.pdf\OpenWithProgids
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\.shtml\OpenWithProgids
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Classes\.webp\OpenWithProgids
+[0302/124749.697:VERBOSE1:work_item_list.cc(54)] Successful execution of work item list 
+[0302/124749.697:VERBOSE1:work_item_list.cc(33)] Beginning execution of work item list 
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Clients\StartMenuInternet\Google Chrome
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Clients\StartMenuInternet\Google Chrome\shell
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Clients\StartMenuInternet\Google Chrome\shell\open
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Clients\StartMenuInternet\Google Chrome\shell\open\command
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Clients\StartMenuInternet\Google Chrome\DefaultIcon
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Clients\StartMenuInternet\Google Chrome\InstallInfo
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Clients\StartMenuInternet\Google Chrome\Capabilities
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Clients\StartMenuInternet\Google Chrome\Capabilities\Startmenu
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Clients\StartMenuInternet\Google Chrome\Capabilities\FileAssociations
+[0302/124749.697:VERBOSE1:create_reg_key_work_item.cc(75)] created Software\Clients\StartMenuInternet\Google Chrome\Capabilities\URLAssociations
+[0302/124749.697:VERBOSE1:work_item_list.cc(54)] Successful execution of work item list 
+[0302/124749.697:VERBOSE1:work_item_list.cc(33)] Beginning execution of work item list Write Installer Result
+[0302/124749.697:VERBOSE1:work_item_list.cc(54)] Successful execution of work item list Write Installer Result
+[0302/124749.697:VERBOSE1:setup_main.cc(1218)] First install successful.
+[0302/124749.697:VERBOSE1:setup_main.cc(1272)] Deleting temporary directory C:\Program Files\Google\Chrome\Temp
+[0302/124749.697:VERBOSE1:delete_after_reboot_helper.cc(94)] Scheduled for deletion: C:\Program Files\Google\Chrome
+[0302/124749.697:VERBOSE1:delete_after_reboot_helper.cc(94)] Scheduled for deletion: C:\Program Files\Google
+[0302/124749.697:VERBOSE1:google_update_settings.cc(456)] Removed incremental installer failure key; switching to channel: x64-stable-statsdef_1
+[0302/124749.697:VERBOSE1:setup_main.cc(1520)] Installation complete, returning: 0
+[0302/124756.019:VERBOSE1:setup_main.cc(1321)] Command Line: "C:\Program Files\Google\Chrome\Application\88.0.4324.190\Installer\chrmstp.exe" --configure-user-settings --verbose-logging --system-level --force-configure-user-settings
+[0302/124756.020:VERBOSE1:setup_main.cc(1327)] system install is 1
+[0302/124756.022:VERBOSE1:install_util.cc(222)] Existing Chrome version found: 88.0.4324.190
+[0302/124756.022:VERBOSE1:installer_state.cc(86)] Install Chrome
+[0302/124756.072:VERBOSE1:install_util.cc(253)] Windows NT 10.0.18362
+[0302/124756.074:VERBOSE1:install_worker.cc(947)] Adding unregistration items for per-user Metro keys.
+[0302/124756.075:VERBOSE1:work_item_list.cc(33)] Beginning execution of work item list Cleanup deprecated per-user registrations
+[0302/124756.076:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Google\Chrome\Metro
+[0302/124756.076:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Google\Chrome\Metro
+[0302/124756.076:VERBOSE1:work_item_list.cc(54)] Successful execution of work item list Cleanup deprecated per-user registrations
+[0302/124756.097:VERBOSE1:install.cc(118)] Creating per-user Desktop "Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0302/124756.098:VERBOSE1:install.cc(118)] Creating per-user Quick Launch "Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0302/124756.169:VERBOSE1:install.cc(118)] Creating per-user Start menu "Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0302/124756.195:ERROR:persistent_histogram_storage.cc(146)] Persistent histograms fail to write to file: C:\Program Files\Google\Chrome\Application\SetupMetrics\20210302124756.pma
+[0303/093926.406:VERBOSE1:setup_main.cc(1321)] Command Line: "C:\Program Files\Google\Chrome\Application\88.0.4324.190\Installer\chrmstp.exe" --configure-user-settings --verbose-logging --system-level
+[0303/093926.407:VERBOSE1:setup_main.cc(1327)] system install is 1
+[0303/093926.408:VERBOSE1:install_util.cc(222)] Existing Chrome version found: 88.0.4324.190
+[0303/093926.408:VERBOSE1:installer_state.cc(86)] Install Chrome
+[0303/093926.435:VERBOSE1:install_util.cc(253)] Windows NT 10.0.18362
+[0303/093926.436:VERBOSE1:install_worker.cc(947)] Adding unregistration items for per-user Metro keys.
+[0303/093926.436:VERBOSE1:work_item_list.cc(33)] Beginning execution of work item list Cleanup deprecated per-user registrations
+[0303/093926.436:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Google\Chrome\Metro
+[0303/093926.436:VERBOSE1:install_util.cc(365)] Deleting registry key Software\Google\Chrome\Metro
+[0303/093926.436:VERBOSE1:work_item_list.cc(54)] Successful execution of work item list Cleanup deprecated per-user registrations
+[0303/093926.451:VERBOSE1:install.cc(118)] Overwriting per-user Desktop "Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0303/093926.455:WARNING:install.cc(116)] Failed: Overwriting (maybe the shortcut doesn't exist?) per-user Desktop "Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0303/093926.455:VERBOSE1:install.cc(118)] Overwriting per-user Quick Launch "Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0303/093926.486:VERBOSE1:install.cc(118)] Overwriting per-user Start menu "Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0303/093926.486:WARNING:install.cc(116)] Failed: Overwriting (maybe the shortcut doesn't exist?) per-user Start menu "Chrome" shortcut to C:\Program Files\Google\Chrome\Application\chrome.exe.
+[0303/093926.501:ERROR:persistent_histogram_storage.cc(146)] Persistent histograms fail to write to file: C:\Program Files\Google\Chrome\Application\SetupMetrics\20210303093926.pma
