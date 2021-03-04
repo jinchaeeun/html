@@ -1,0 +1,1 @@
+2021-03-03 09:39:56.801 +09:00 [ERR] 	PowerStartup. PopulateAlsSensorAvailable. IGCCClient Exception:통신 개체 System.ServiceModel.Channels.ServiceChannel은(는) Faulted 상태이기 때문에 통신에 사용할 수 없습니다.

@@ -1,0 +1,38 @@
+2021-03-03 09:39:44.788 +09:00 [INF] 	SystrayAppContext. SystrayAppContext. SystemTrayForm. Initializing BST.
+2021-03-03 09:39:44.882 +09:00 [INF] 	PowerStartup. Startup beginning.
+2021-03-03 09:39:44.975 +09:00 [INF] 	BaseServiceHandler. ServiceAvailability. Checking is Svc available
+2021-03-03 09:39:45.132 +09:00 [INF] 	PreferencesTable. GetPreferencesIdAsync. EnableTrayIcon Record not found
+2021-03-03 09:39:45.319 +09:00 [INF] 	BaseServiceHandler. ServiceAvailability. Service is available
+2021-03-03 09:39:45.350 +09:00 [INF] 	PreferencesTable. GetPreferencesIdAsync. EnableHotKeys Record not found
+2021-03-03 09:39:45.444 +09:00 [INF] 	HotKeyTable. HotKeyDataRetrieval. GetHotKeySettingAsync. OpenGCP Record not found
+2021-03-03 09:39:45.522 +09:00 [INF] 	HotKeyTable. HotKeyDataRetrieval. GetHotKeySettingAsync. Rotate0 Record not found
+2021-03-03 09:39:45.553 +09:00 [INF] 	HotKeyTable. HotKeyDataRetrieval. GetHotKeySettingAsync. Rotate90 Record not found
+2021-03-03 09:39:45.600 +09:00 [INF] 	HotKeyTable. HotKeyDataRetrieval. GetHotKeySettingAsync. Rotate180 Record not found
+2021-03-03 09:39:45.632 +09:00 [INF] 	HotKeyTable. HotKeyDataRetrieval. GetHotKeySettingAsync. Rotate270 Record not found
+2021-03-03 09:39:45.694 +09:00 [INF] 	HotKeyTable. HotKeyDataRetrieval. GetHotKeySettingAsync. StartRecording Record not found
+2021-03-03 09:39:45.725 +09:00 [INF] 	HotKeyTable. HotKeyDataRetrieval. GetHotKeySettingAsync. StartStreaming Record not found
+2021-03-03 09:39:45.772 +09:00 [INF] 	HotKeyTable. HotKeyDataRetrieval. GetHotKeySettingAsync. StopRecording Record not found
+2021-03-03 09:39:45.788 +09:00 [INF] 	PowerStartup. Doing PowerStartup.
+2021-03-03 09:39:45.803 +09:00 [INF] 	PreferencesTable. GetPreferencesIdAsync. Lace Record not found
+2021-03-03 09:39:56.801 +09:00 [INF] 	PowerStartup. PopulateAlsSensorAvailable. Failed to get ALS sensor information from service. Getting from backend database.
+2021-03-03 09:39:56.845 +09:00 [INF] 	PowerStartup. PopulateAlsSensorAvailable. Backend database ALSSensor value: OFF
+2021-03-03 09:39:57.241 +09:00 [INF] 	VideoStartup. Initializing Video Settings
+2021-03-03 09:39:57.266 +09:00 [INF] 	PreferencesTable. GetPreferencesIdAsync. EnableACE Record not found
+2021-03-03 09:39:57.306 +09:00 [INF] 	PreferencesTable. GetPreferencesIdAsync. EnableSTE Record not found
+2021-03-03 09:39:57.322 +09:00 [INF] 	VideoStartup. Video startup is invoked
+2021-03-03 09:39:57.426 +09:00 [INF] 	VideoStartup. Initializing Video Settings set
+2021-03-03 09:39:57.511 +09:00 [INF] 	LoggingStartup. 
+----------------------------------------------Features--------------------------------------------------------
+AlwaysShowAdapter: Disabled
+Async Compute: Disabled
+Bezel: Enabled
+Capture: Enabled
+CapBitrateAt60: Disabled
+CustomThemesEnabled: Disabled
+DSANotification: Disabled
+LightMode: Disabled
+Survey: Enabled
+UseBetaSurvey: Disabled
+--------------------------------------------------------------------------------------------------------------
+
+2021-03-03 09:39:57.511 +09:00 [INF] 	PowerStartup. Startup finished.

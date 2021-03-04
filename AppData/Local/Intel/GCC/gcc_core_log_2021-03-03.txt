@@ -1,0 +1,29 @@
+2021-03-03 09:39:57.1717 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MISC'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.2317 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.2411 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.2411 INFO 	RegistryCalls. GetOEMCustomizationValue. EnableACE Value :1 
+2021-03-03 09:39:57.2411 INFO 	RegistryCalls. GetOEMCustomizationValue. EnableSTE Value :1 
+2021-03-03 09:39:57.4035 DEBUG 	RegistryCalls. EnableAutoEnhancePlayback. Done 
+2021-03-03 09:39:57.4035 DEBUG 	VideoCalls. SetAllVideoSettings. Writing Win OS video settings done: 
+2021-03-03 09:39:57.4035 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4035 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4035 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4035 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4085 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4245 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 
+2021-03-03 09:39:57.4245 ERROR 	RegistryCalls. OpenBaseRegistryKey. Exception:레지스트리 키 'HKEY_LOCAL_MACHINE\Software\Intel\Display\igfxcui\MediaKeys'에 대한 액세스가 거부되었습니다. 

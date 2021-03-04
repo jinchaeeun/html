@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="name">Name</string>
+    <string name="job">Job</string>
+    <string name="hobby">Hobby</string>
+    <string name="phone">Phone</string>
+    <string name="title">회원가입</string>
+    <string name="id">ID</string>
+    <string name="pw">PW</string>
+    <string name="inputPW">Enter PW</string>
+    <string name="join">가입</string>
+    <string name="cancel">취소</string>
+    <string name="btnAdd">+</string>
+    <string name="btnDiv">/</string>
+    <string name="txtTitle">Background Color Change</string>
+    <string name="btnPowderBlue">PowderBlue</string>
+    <string name="btnPlum">Violet</string>
+    <string name="above">ABOVE</string>
+    <string name="username">홍길동</string>
+    <string name="chatText">안녕하세요. 잘 지내시는 지요?</string>
+    <string name="dateText">19. 1. 26</string>
+    <string name="todo">TODO</string>
+    <string name="oneBTN">ONE</string>
+    <string name="fiveBTN">FIVE</string>
+    <string name="fourBTN">FOUR</string>
+    <string name="threeBTN">THREE</string>
+    <string name="twoBTN">TWO</string>
+</resources>
