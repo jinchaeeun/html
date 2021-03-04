@@ -8,33 +8,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="ONE" />
+        android:onClick="onClick"
+        android:text="@string/oneBTN" />
 
     <Button
         android:id="@+id/twoBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="TWO" />
+        android:onClick="onClick"
+        android:text="@string/twoBTN" />
 
     <Button
         android:id="@+id/threeBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="THREE" />
+        android:onClick="onClick"
+        android:text="@string/threeBTN" />
 
     <Button
         android:id="@+id/fourBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="FOUR" />
+        android:onClick="onClick"
+        android:text="@string/fourBTN" />
 
     <Button
         android:id="@+id/fiveBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="FIVE" />
+        android:onClick="onClick"
+        android:text="@string/fiveBTN" />
 </FrameLayout>
