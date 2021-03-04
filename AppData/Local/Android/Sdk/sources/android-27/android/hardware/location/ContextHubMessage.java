@@ -19,7 +19,6 @@ package android.hardware.location;
 import android.annotation.SystemApi;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.util.Log;
 
 import java.util.Arrays;
 

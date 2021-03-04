@@ -15,8 +15,6 @@
  */
 package android.service.autofill.augmented;
 
-import static android.service.autofill.augmented.AugmentedAutofillService.sDebug;
-
 import android.annotation.NonNull;
 import android.annotation.SystemApi;
 import android.annotation.TestApi;
@@ -30,6 +28,8 @@ import android.view.autofill.AutofillValue;
 import com.android.internal.util.Preconditions;
 
 import java.util.List;
+
+import static android.service.autofill.augmented.AugmentedAutofillService.sDebug;
 
 /**
  * Object used to interact with the autofill system.

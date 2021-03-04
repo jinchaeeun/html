@@ -23,7 +23,6 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.database.Cursor;
 import android.database.SQLException;
-import android.os.UserHandle;
 import android.os.UserManager;
 import android.telephony.Rlog;
 

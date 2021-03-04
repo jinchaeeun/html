@@ -16,8 +16,6 @@
 
 package com.android.commands.bmgr;
 
-import static org.mockito.Mockito.verify;
-
 import android.app.backup.IBackupManager;
 import android.os.UserHandle;
 import android.platform.test.annotations.Presubmit;
@@ -28,6 +26,8 @@ import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.robolectric.RobolectricTestRunner;
+
+import static org.mockito.Mockito.verify;
 
 /** Unit tests for {@link com.android.commands.bmgr.Bmgr}. */
 @RunWith(RobolectricTestRunner.class)

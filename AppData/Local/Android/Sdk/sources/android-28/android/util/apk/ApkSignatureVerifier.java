@@ -16,13 +16,6 @@
 
 package android.util.apk;
 
-import static android.content.pm.PackageManager.INSTALL_PARSE_FAILED_BAD_MANIFEST;
-import static android.content.pm.PackageManager.INSTALL_PARSE_FAILED_CERTIFICATE_ENCODING;
-import static android.content.pm.PackageManager.INSTALL_PARSE_FAILED_INCONSISTENT_CERTIFICATES;
-import static android.content.pm.PackageManager.INSTALL_PARSE_FAILED_NO_CERTIFICATES;
-import static android.content.pm.PackageManager.INSTALL_PARSE_FAILED_UNEXPECTED_EXCEPTION;
-import static android.os.Trace.TRACE_TAG_PACKAGE_MANAGER;
-
 import android.content.pm.PackageParser;
 import android.content.pm.PackageParser.PackageParserException;
 import android.content.pm.PackageParser.SigningDetails.SignatureSchemeVersion;
@@ -31,8 +24,6 @@ import android.os.Trace;
 import android.util.jar.StrictJarFile;
 
 import com.android.internal.util.ArrayUtils;
-
-import libcore.io.IoUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -46,6 +37,15 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.zip.ZipEntry;
+
+import libcore.io.IoUtils;
+
+import static android.content.pm.PackageManager.INSTALL_PARSE_FAILED_BAD_MANIFEST;
+import static android.content.pm.PackageManager.INSTALL_PARSE_FAILED_CERTIFICATE_ENCODING;
+import static android.content.pm.PackageManager.INSTALL_PARSE_FAILED_INCONSISTENT_CERTIFICATES;
+import static android.content.pm.PackageManager.INSTALL_PARSE_FAILED_NO_CERTIFICATES;
+import static android.content.pm.PackageManager.INSTALL_PARSE_FAILED_UNEXPECTED_EXCEPTION;
+import static android.os.Trace.TRACE_TAG_PACKAGE_MANAGER;
 
 /**
  * Facade class that takes care of the details of APK verification on

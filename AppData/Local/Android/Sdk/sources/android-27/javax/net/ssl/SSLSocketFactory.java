@@ -27,12 +27,12 @@
 
 package javax.net.ssl;
 
-import java.net.*;
-import javax.net.SocketFactory;
 import java.io.IOException;
 import java.io.InputStream;
-import java.security.*;
+import java.net.Socket;
 import java.util.Locale;
+
+import javax.net.SocketFactory;
 
 import sun.security.action.GetPropertyAction;
 

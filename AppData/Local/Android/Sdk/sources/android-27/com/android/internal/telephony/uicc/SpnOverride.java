@@ -16,20 +16,20 @@
 
 package com.android.internal.telephony.uicc;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.HashMap;
-
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
-
 import android.os.Environment;
 import android.telephony.Rlog;
 import android.util.Xml;
 
 import com.android.internal.util.XmlUtils;
+
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
 
 public class SpnOverride {
     private HashMap<String, String> mCarrierSpnMap;

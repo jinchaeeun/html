@@ -16,14 +16,7 @@
 
 package com.android.server.wifi;
 
-import static android.telephony.TelephonyManager.CALL_STATE_IDLE;
-import static android.telephony.TelephonyManager.CALL_STATE_OFFHOOK;
-import static android.telephony.TelephonyManager.CALL_STATE_RINGING;
-
-import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
 import android.net.wifi.WifiManager;
 import android.os.Looper;
 import android.telephony.PhoneStateListener;
@@ -34,7 +27,10 @@ import com.android.internal.R;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
-import java.util.List;
+
+import static android.telephony.TelephonyManager.CALL_STATE_IDLE;
+import static android.telephony.TelephonyManager.CALL_STATE_OFFHOOK;
+import static android.telephony.TelephonyManager.CALL_STATE_RINGING;
 
 /**
  * This class provides the Support for SAR to control WiFi TX power limits.

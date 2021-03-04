@@ -16,31 +16,6 @@
 
 package com.android.server.wifi;
 
-import static android.net.wifi.WifiManager.EXTRA_PREVIOUS_WIFI_AP_STATE;
-import static android.net.wifi.WifiManager.EXTRA_WIFI_AP_FAILURE_REASON;
-import static android.net.wifi.WifiManager.EXTRA_WIFI_AP_INTERFACE_NAME;
-import static android.net.wifi.WifiManager.EXTRA_WIFI_AP_MODE;
-import static android.net.wifi.WifiManager.EXTRA_WIFI_AP_STATE;
-import static android.net.wifi.WifiManager.LocalOnlyHotspotCallback.ERROR_GENERIC;
-import static android.net.wifi.WifiManager.LocalOnlyHotspotCallback.ERROR_NO_CHANNEL;
-import static android.net.wifi.WifiManager.SAP_START_FAILURE_NO_CHANNEL;
-import static android.net.wifi.WifiManager.WIFI_AP_STATE_DISABLED;
-import static android.net.wifi.WifiManager.WIFI_AP_STATE_DISABLING;
-import static android.net.wifi.WifiManager.WIFI_AP_STATE_FAILED;
-
-import static com.android.server.wifi.LocalOnlyHotspotRequestInfo.HOTSPOT_NO_ERROR;
-import static com.android.server.wifi.WifiController.CMD_AIRPLANE_TOGGLED;
-import static com.android.server.wifi.WifiController.CMD_BATTERY_CHANGED;
-import static com.android.server.wifi.WifiController.CMD_EMERGENCY_CALL_STATE_CHANGED;
-import static com.android.server.wifi.WifiController.CMD_EMERGENCY_MODE_CHANGED;
-import static com.android.server.wifi.WifiController.CMD_LOCKS_CHANGED;
-import static com.android.server.wifi.WifiController.CMD_SCAN_ALWAYS_MODE_CHANGED;
-import static com.android.server.wifi.WifiController.CMD_SCREEN_OFF;
-import static com.android.server.wifi.WifiController.CMD_SCREEN_ON;
-import static com.android.server.wifi.WifiController.CMD_SET_AP;
-import static com.android.server.wifi.WifiController.CMD_USER_PRESENT;
-import static com.android.server.wifi.WifiController.CMD_WIFI_TOGGLED;
-
 import android.Manifest;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningAppProcessInfo;
@@ -129,6 +104,30 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
+
+import static android.net.wifi.WifiManager.EXTRA_PREVIOUS_WIFI_AP_STATE;
+import static android.net.wifi.WifiManager.EXTRA_WIFI_AP_FAILURE_REASON;
+import static android.net.wifi.WifiManager.EXTRA_WIFI_AP_INTERFACE_NAME;
+import static android.net.wifi.WifiManager.EXTRA_WIFI_AP_MODE;
+import static android.net.wifi.WifiManager.EXTRA_WIFI_AP_STATE;
+import static android.net.wifi.WifiManager.LocalOnlyHotspotCallback.ERROR_GENERIC;
+import static android.net.wifi.WifiManager.LocalOnlyHotspotCallback.ERROR_NO_CHANNEL;
+import static android.net.wifi.WifiManager.SAP_START_FAILURE_NO_CHANNEL;
+import static android.net.wifi.WifiManager.WIFI_AP_STATE_DISABLED;
+import static android.net.wifi.WifiManager.WIFI_AP_STATE_DISABLING;
+import static android.net.wifi.WifiManager.WIFI_AP_STATE_FAILED;
+import static com.android.server.wifi.LocalOnlyHotspotRequestInfo.HOTSPOT_NO_ERROR;
+import static com.android.server.wifi.WifiController.CMD_AIRPLANE_TOGGLED;
+import static com.android.server.wifi.WifiController.CMD_BATTERY_CHANGED;
+import static com.android.server.wifi.WifiController.CMD_EMERGENCY_CALL_STATE_CHANGED;
+import static com.android.server.wifi.WifiController.CMD_EMERGENCY_MODE_CHANGED;
+import static com.android.server.wifi.WifiController.CMD_LOCKS_CHANGED;
+import static com.android.server.wifi.WifiController.CMD_SCAN_ALWAYS_MODE_CHANGED;
+import static com.android.server.wifi.WifiController.CMD_SCREEN_OFF;
+import static com.android.server.wifi.WifiController.CMD_SCREEN_ON;
+import static com.android.server.wifi.WifiController.CMD_SET_AP;
+import static com.android.server.wifi.WifiController.CMD_USER_PRESENT;
+import static com.android.server.wifi.WifiController.CMD_WIFI_TOGGLED;
 
 /**
  * WifiService handles remote WiFi operation requests by implementing

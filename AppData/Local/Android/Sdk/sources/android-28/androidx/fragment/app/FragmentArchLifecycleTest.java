@@ -16,8 +16,6 @@
 
 package androidx.fragment.app;
 
-import static org.junit.Assert.assertEquals;
-
 import android.os.Bundle;
 import android.support.test.annotation.UiThreadTest;
 import android.support.test.filters.SmallTest;
@@ -33,6 +31,8 @@ import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import static org.junit.Assert.assertEquals;
 
 @RunWith(AndroidJUnit4.class)
 @SmallTest

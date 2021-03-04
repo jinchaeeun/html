@@ -16,9 +16,6 @@
 
 package androidx.appcompat.widget;
 
-import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
-import static androidx.core.widget.AutoSizeableTextView.PLATFORM_SUPPORTS_AUTOSIZE;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -38,6 +35,9 @@ import androidx.core.content.res.ResourcesCompat;
 import androidx.core.widget.TextViewCompat;
 
 import java.lang.ref.WeakReference;
+
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+import static androidx.core.widget.AutoSizeableTextView.PLATFORM_SUPPORTS_AUTOSIZE;
 
 class AppCompatTextHelper {
 

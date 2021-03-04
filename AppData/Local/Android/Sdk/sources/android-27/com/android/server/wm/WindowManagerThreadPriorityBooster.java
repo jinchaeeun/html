@@ -16,16 +16,15 @@
 
 package com.android.server.wm;
 
-import static android.os.Process.THREAD_PRIORITY_DISPLAY;
-import static android.os.Process.myTid;
-import static android.os.Process.setThreadPriority;
-
-import static com.android.server.LockGuard.INDEX_WINDOW;
-import static com.android.server.am.ActivityManagerService.TOP_APP_PRIORITY_BOOST;
-
 import com.android.internal.annotations.GuardedBy;
 import com.android.server.AnimationThread;
 import com.android.server.ThreadPriorityBooster;
+
+import static android.os.Process.THREAD_PRIORITY_DISPLAY;
+import static android.os.Process.myTid;
+import static android.os.Process.setThreadPriority;
+import static com.android.server.LockGuard.INDEX_WINDOW;
+import static com.android.server.am.ActivityManagerService.TOP_APP_PRIORITY_BOOST;
 
 /**
  * Window manager version of {@link ThreadPriorityBooster} that boosts even more during app

@@ -26,11 +26,10 @@
 
 package java.lang;
 
-import dalvik.annotation.optimization.FastNative;
 import java.io.ObjectStreamField;
 import java.io.UnsupportedEncodingException;
-import java.nio.charset.Charset;
 import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
 import java.util.Comparator;
 import java.util.Formatter;
 import java.util.Locale;
@@ -39,6 +38,7 @@ import java.util.StringJoiner;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
+import dalvik.annotation.optimization.FastNative;
 import libcore.util.CharsetUtils;
 
 /**

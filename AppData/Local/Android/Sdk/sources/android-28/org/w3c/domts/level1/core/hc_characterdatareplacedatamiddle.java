@@ -19,9 +19,6 @@ See W3C License http://www.w3.org/Consortium/Legal/ for more details.
 
 package org.w3c.domts.level1.core;
 
-import org.w3c.dom.*;
-
-
 import org.w3c.domts.DOMTestCase;
 import org.w3c.domts.DOMTestDocumentBuilderFactory;
 
