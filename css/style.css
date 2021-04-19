@@ -1,6 +1,6 @@
  
  /* setting */
- body{margin:0; padding:0;}
+ body{margin:0; padding:0; font-family:maruburi;}
  html, h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
  ul, li, dl, dt, dd {margin:0; padding:0; list-style:none;}
  a { text-decoration:none; color:black}
@@ -11,22 +11,22 @@
  .header > div > div.top-btn{}
 
  /* 헤더 - logo*/
- .header{background:#266492; overflow: hidden;}
+ .header{background:black; overflow: hidden;}
  .header .logo{float:left;}
  .header .logo h1{font-size:17px;}
  .header .logo{display: block; padding: 5px;}
- .header .logo h1 img{width:120px;}
+ .header .logo h1 img{width:70px;}
 
  /* 헤더 - top-btn*/
  .header .top-btn{float:right;}
- .header .top-btn ul{overflow:hidden; margin-top:10px;}
+ .header .top-btn ul{overflow:hidden; margin-top:30px;}
  .header .top-btn ul li{float:left; margin-left:10px;}
  .header .top-btn ul li a{font-size:14px; color:#fff; display: block; padding: 5px;}
 
  .menu{}
  .menu > div{max-width:1200px; margin: 0 auto;}
  .menu > div ul{text-align:center;}
- /*한줄*/
+ /*한줄로 만들기*/
  .menu > div ul > li{display: inline-block;}
  /*WIDTH:*/
  .menu > div ul > li a{display: block; padding:10px; font-size:17px; margin:10px 40px;}
@@ -34,13 +34,14 @@
 
  /*배너*/
  .banner .swiper-container{max-width:1200px; margin:0 auto;}
+ .banner .swiper-container .swiper-wrapper .swiper-slide img{width:100%;}
 
  /*공지사항, 우측 배너*/
  .tap-menu ul{overflow:hidden; text-align:center;}
- .tap-menu ul li{float:left; width:33.33%;}
+ .tap-menu ul li{float:left; width:33.33%; background: black;}
  .tap-menu ul li a{display:block; padding:5px 10px; border-bottom: 1px solid #e1e1e1; font-size:14px; color: #888;}
- .tap-menu ul li.on a{color:#1781d0; font-weight:bold; border-bottom: 1px solid #057bf5;;}
- .tap-menu ul li:hover a{color:#1781d0;}
+ .tap-menu ul li.on a{color:white; font-weight:bold; border-bottom: 2px solid #fe5f01;}
+ .tap-menu ul li:hover a{color:white; }
 
  .tab-con{}
  .tab-con ul li{overflow:hidden;}
@@ -51,10 +52,11 @@
  .tab-con ul li span{float:right; padding:5px; font-size:13px; color:#888;}
 
  .bbs-box > div{overflow:hidden; max-width:1200px; margin:0 auto;}
- .bbs-box > div > .board-box{float:left; width:40%;}
+ .bbs-box > div > .board-box{float:left; width:50%;}
  .bbs-box > div > .board-box > div{padding:10px;}
- .bbs-box > div > .rigth-banner{float:right; width:60%; }
+ .bbs-box > div > .rigth-banner{float:right; width:50%; }
  .bbs-box > div > .rigth-banner .r-slide{padding:10px;}
+ .bbs-box > div > .rigth-banner .r-slide .swiper-wrapper .swiper-slide img{height: 200px;}
 
  /*하단정보*/
  .footer{background: #444; color: #ccc;}
