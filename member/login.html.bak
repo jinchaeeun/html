@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>login</title>
+
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <script src="./js/jquery-ui.min.js"></script>
+
+  <script src="./js/swiper.min.js"></script>
+  <link rel="stylesheet" href="./js/swiper.min.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+ </head>
+
+ <style>
+ .login form{ border:1px solid red;}
+ </style>
+ <body>
+
+  <div class= "login-box">
+	  <h1>로그인</h1>
+	  <div class="login">
+		<form>
+			<fieldset>
+				아이디: <input type="text"/><br/>
+				패스워드: <input type="password"/><br/>
+				<input type="submit" value="로그인">
+			</fieldset>
+		</form>
+	  </div>
+  </div>
+   <!--하단 정보 -->
+  <div class="footer">
+  	<div>
+	<h1>BAEJJANG-I_CHAEN</h1>
+	<p>대구 동구 동내로 70</p>
+	<p>대표자 : 진채은</p>
+	<p>이메일: abc00000@naver.com</p>
+	<p>연락처: 010-1111-2222</p>
+	<span>copyright(c) Light. All rights reserved.</span>
+	</div>
+  </div>
+ </body>
+</html>
