@@ -131,7 +131,7 @@
 				<div class="swiper-button-next swiper-button-black"></div>
 				<div class="swiper-button-prev swiper-button-black"></div>
 				<!-- Add Pagination -->
-				<div class="swiper-pagination"></div>
+				<div class="swiper-pagination swiper-pagination-black"></div>
 			  </div>
 
 			  <!-- 실행 Initialize Swiper -->

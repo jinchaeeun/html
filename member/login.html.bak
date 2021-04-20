@@ -24,12 +24,12 @@
 	  <div>
 		<!--logo-->
 		<div class="logo">	
-		<h1><a href="./index.html"><img src="../img/nike_w.png"></a></h1>
+		<h1><a href="../index.html"><img src="../img/nike_w.png"></a></h1>
 		</div>
 		<div class="top-btn">
 			<ul>
-			<li><a href="./member/login.html">로그인</a></li>
-			<li><a href="#none">회원가입</a></li>
+			<li><a href="../member/login.html">로그인</a></li>
+			<li><a href="../member/join.html">회원가입</a></li>
 			</ul>
 		</div>
 	  </div>
@@ -54,7 +54,7 @@
 	</div>
 
 	<div class="login-btn">
-		<a href="./join.html">회원가입</a>
+		<a href="../member/join.htmll">회원가입</a>
 	</div>
 
  </div>
