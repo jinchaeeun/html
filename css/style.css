@@ -94,9 +94,11 @@ a {color:#000;text-decoration:none}
  .login-box .login {max-width: 400px; margin: 0 auto; border: 1px solid #e1e1e1; border-radius: 25px; padding: 20px; background: #fff; box-shadow: 1px 6px 11px 3px #cccccc;}
  .login-box .login li {margin: 5px;}
  .login-box .login li input {width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:15px;}
- .login-box .login li button{width: 100%; height: 40px; background: black; color: white; border: 0; border-radius:15px;}
-
- .login-box .login-btn {text-align: center; margin-top: 20px;}
+ .login-box .login li button{width: 100%; height: 40px; background: black; color: white; border: 0; border-radius:15px; transition: all 0.3s;} /*transition 애니메이션 효과 자연스럽게하기위해 0.3초동안 변경한다*/
+ .login-box .login li button:hover{background: #e1e1e1; border-radius:0; font-size: 14px;}
+ 
+ .login-box .login-btn {text-align: center; margin-top: 20px; transition: all 0.3s;}
+ .login-box .login-btn:hover {color: black; font-size: 14px;}
 
 /*회원가입*/
  .join-box{padding: 50px;}
@@ -126,3 +128,5 @@ a {color:#000;text-decoration:none}
 
  .join-box .join-btn {text-align: center; margin-top: 20px;}
  .join-box .join-btn a{display: inline-block; background: #000; color: #fff; margin: 5px; padding: 10px 20px; border-radius:15px;}
+
+

@@ -94,7 +94,39 @@ a {color:#000;text-decoration:none}
  .login-box .login {max-width: 400px; margin: 0 auto; border: 1px solid #e1e1e1; border-radius: 25px; padding: 20px; background: #fff; box-shadow: 1px 6px 11px 3px #cccccc;}
  .login-box .login li {margin: 5px;}
  .login-box .login li input {width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:15px;}
- .login-box .login li button{width: 100%; height: 40px; background: black; color: white; border: 0; border-radius:15px;}
+ .login-box .login li button{width: 100%; height: 40px; background: black; color: white; border: 0; border-radius:15px; transition: all 0.3s;} /*transition 애니메이션 효과 자연스럽게하기위해 0.3초동안 변경한다*/
+ .login-box .login li button:hover{background: #e1e1e1; border-radius:0;}
+ 
+ .login-box .login-btn {text-align: center; margin-top: 20px; transition: all 0.3s;}
+ .login-box .login-btn:hover {color: black; font-size: 14px;}
 
- .login-box .login-btn {text-align: center; margin-top: 20px;}
+/*회원가입*/
+ .join-box{padding: 50px;}
+ .join-box .join-form label{display: block;}
+ .join-box h1{text-align: center; margin-bottom: 20px;}
+
+ .join-box .join-form{max-width: 400px; margin: 0 auto; border: 1px solid #e1e1e1; border-radius: 25px; padding: 20px; background: #fff; box-shadow: 1px 6px 11px 3px #cccccc;}
+ 
+ /*width 100%해서 가로로 영역 가득 채우기, 안에 글 쓸 때 떨어져보이게 하기 위해서 padding 5px 정도 줌*/
+ /*radio 박스가 속성을 벗어나게끔 input[type=] 지정*/
+ .join-box .join-form input[type="text"]{width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:15px; margin-bottom: 10px;}
+ .join-box .join-form input[type="password"]{width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:15px; margin-bottom: 10px;}
+ .join-box .join-form ul li label{font-size: 12px; color: #000; margin-bottom: 8px;}
+ .join-box .join-form  ul li {margin: 20px;}
+
+ /*radio 박스 한줄로*/
+ .join-box .join-form ul li.gender span{display: inline-block;}
+ .join-box .join-form ul li.gender span label{display: inline-block;}
+
+ /*select 박스*/
+ .join-box .join-form select{width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:15px; margin-bottom: 10px;}
+
+ /*주소*/
+ .join-box .join-form ul li.add span.zipcode input {width:60%;}
+ .join-box .join-form ul li.add span.zipcode button {width: 30%; height: 40px; background: black; color: white; border: 0; border-radius:15px; margin-left: 10%; margin-bottom: 10px;}
+ .join-box .join-form ul li.add span{margin-bottom: 5px; display: block;}
+
+ .join-box .join-btn {text-align: center; margin-top: 20px;}
+ .join-box .join-btn a{display: inline-block; background: #000; color: #fff; margin: 5px; padding: 10px 20px; border-radius:15px;}
+
 
