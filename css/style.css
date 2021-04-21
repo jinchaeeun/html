@@ -156,7 +156,7 @@ img{max-width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
  .notice-table ul li > div.subject{width: 50%;}
  .notice-table ul.table-bd .subject a:hover{text-decoration: underline; color: #d77300;}
  .notice-table ul li > div.name{width: 20%;}
- .notice-table ul li > div.data{width: 20%;}
+ .notice-table ul li > div.date{width: 20%;}
  /*2. class 안주고 사용하는 법. 단점은 이름 순서를 바꾸었을 때*/
  /*
  .notice-table ul li > div:nth-child(1){width: 10%;}
@@ -170,7 +170,7 @@ img{max-width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
  .paging ul li a{display: block; padding: 5px 10px; border: 1px solid black; color:white; background: black;}
  .paging ul li.on a{background: #fff; color: black; border: 1px solid #000;}
 
- .bbs-btn-box{text-align: right; margin: 10px 0;}
+ .bbs-btn-box{text-align: right; margin: 10px auto;}
  .bbs-btn-box a{display: inline-block; background: #000; color: #fff; padding: 5px 10px;}
 
 
@@ -251,52 +251,137 @@ img{max-width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
  .booking-table .info p{font-size:14px; color: #444; margin: 10px 0; max-height: 55px; overflow:hidden; min-height: 55px;}
  .booking-table .info span{color: #888;}
 
- /*장소예약 상세정보 booking/view.html*/
- 	.booking-view{padding-top: 20px;}
+/*장소예약 상세정보 booking/view.html*/
+.booking-view{padding-top: 20px;}
 
-	.booking-view .photo-box{}
-	.booking-view > div{}
-	.booking-view .photo-box > div{}
-	
-	.booking-view .photo-box{overflow: hidden;}
-	.booking-view .photo-box .view-photo{float: left; width: 50%; height: 310px; padding: 5px;}	
-	/*사이 간격을 줄 때 padding으로 내부. width 50, 50이기 때문에 margin을 주면 한 요소가 아래로 내려가버린다.*/
-	.booking-view .photo-box .calendar{float: right; width: 50%; height: 310px; padding: 5px;}
-	
-	.cal-box{border: 1px solid #e1e1e1;}
-	.cal-box ul{overflow:hidden; padding: 5px;}
-	.cal-box ul li{float: left; width: 14.28%; text-align: center;}     /*가로로 놓기위해서 width 설정*/
-	.cal-box ul li:first-child a span{color: #f12c00;}                  /*ntn-child(1)*/
-	.cal-box ul li:last-child a span{color: #0077f1;}
+.booking-view .photo-box{}
+.booking-view > div{}
+.booking-view .photo-box > div{}
 
-	.cal-box ul li a{display: block; padding: 4px 5px;}
-	.cal-box ul li a span.off{color: #aaa;}
-	.cal-box ul li a span.today{color: white; background: #000; padding: 5px;}
-	.cal-box ul li a span.selected{color: #fff; background: gray; padding: 5px;}
-	.cal-box ul li a span:hover{color: #d77300; background: #000; padding: 5px;}
-	
-	.cal-hd{text-align: center;}
-	.cal-hd span{margin: 10px; display: inline-block; padding: 10px;}
-	.cal-hd span.month{font-size:19px; font-weight: bold;}
+.booking-view .photo-box{overflow: hidden;}
+.booking-view .photo-box .view-photo{float: left; width: 50%; height: 310px; padding: 5px;}	
+/*사이 간격을 줄 때 padding으로 내부. width 50, 50이기 때문에 margin을 주면 한 요소가 아래로 내려가버린다.*/
+.booking-view .photo-box .calendar{float: right; width: 50%; height: 310px; padding: 5px;}
 
-	/*
-	inline-block //요소이면서 영역 박스, margin과 padding을 정확하게 사용하기 위함.
+.cal-box{border: 1px solid #e1e1e1;}
+.cal-box ul{overflow:hidden; padding: 5px;}
+.cal-box ul li{float: left; width: 14.28%; text-align: center;}     /*가로로 놓기위해서 width 설정*/
+.cal-box ul li:first-child a span{color: #f12c00;}                  /*ntn-child(1)*/
+.cal-box ul li:last-child a span{color: #0077f1;}
 
-	inline //요소
-	<span></span>
-	<u></u>
-	<i></i>
-	<b></b>
-	<a href=""></a>
+.cal-box ul li a{display: block; padding: 4px 5px;}
+.cal-box ul li a span.off{color: #aaa;}
+.cal-box ul li a span.today{color: white; background: #000; padding: 5px;}
+.cal-box ul li a span.selected{color: #fff; background: gray; padding: 5px;}
+.cal-box ul li a span:hover{color: #d77300; background: #000; padding: 5px;}
 
-	block //영역
-	<div></div>
-	<p></p>
-	<ul></ul>
-	<li></li>
-	*/
+.cal-hd{text-align: center;}
+.cal-hd span{margin: 10px; display: inline-block; padding: 10px;}
+.cal-hd span.month{font-size:19px; font-weight: bold;}
 
-	.view-btn {text-align: right; padding: 5px;}
-	.view-btn a{display: inline-block; padding: 5px 10px; background: #000; color: #fff; transition: all 0.3s;}
-	.view-btn a:hover{ background: #d77300; }
-	.view-detail{background: #fff; border: 1px solid #ccc; margin: 10px 5px; padding: 20px; min-height: 200px;}
+/*
+inline-block //요소이면서 영역 박스, margin과 padding을 정확하게 사용하기 위함.
+
+inline //요소
+<span></span>
+<u></u>
+<i></i>
+<b></b>
+<a href=""></a>
+
+block //영역
+<div></div>
+<p></p>
+<ul></ul>
+<li></li>
+*/
+
+.view-btn {text-align: right; padding: 5px;}
+.view-btn a{display: inline-block; padding: 5px 10px; background: #000; color: #fff; transition: all 0.3s;}
+.view-btn a:hover{ background: #d77300; }
+.view-detail{background: #fff; border: 1px solid #ccc; margin: 10px 5px; padding: 20px; min-height: 200px;}
+
+
+/* 마이페이지 */
+
+ .notice-table ul li > div.no{width: 10%;}
+ .notice-table ul li > div.subject{width: 45%;}
+ .notice-table ul.table-bd .subject a:hover{text-decoration: underline; color: #d77300;}
+ .notice-table ul li > div.stats{width: 15%;}
+ .notice-table ul li > div.reserv-date{width: 15%;}
+ .notice-table ul li > div.regist-date{width: 15%;}
+
+
+/*환경설정*/
+ .adm-set{padding: 50px;}
+ .adm-set h1{text-align: center;}
+ .adm-set .join-form label{display: block;}
+
+ .adm-set .join-form {max-width: 800px; margin: 0 auto; border: 1px solid #e1e1e1; border-radius: 5px; padding: 20px; background-color: #fff; box-shadow: 0px 0px 10px 0px rgba(88, 88, 88, 0.616);}
+ .adm-set .join-form input[type="text"]{width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:5px; margin-bottom: 10px;}
+ .adm-set .join-form select{width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:5px; margin-bottom: 10px;}
+ .adm-set .join-form ul li label{font-size: 12px; color: #000; margin-bottom: 8px;}
+ .adm-set .join-form ul li {margin: 20px;}
+
+ /*주소*/
+ .adm-set .join-form ul li.add span.zipcode input {width:70%;}
+ .adm-set .join-form ul li.add span.zipcode button {width: 30%; height: 40px; background: black; color: white; border: 0; border-radius:5px; padding-left: 1px; margin-bottom: 10px;}
+ .adm-set .join-form ul li.add span{margin-bottom: 5px; display: block;}
+
+ .adm-set .save-btn {text-align: center; margin-top: 20px;}
+ .adm-set .save-btn a{display: inline-block; background: #000; color: #fff; margin: 5px; padding: 10px 20px; border-radius:5px;}
+
+ .adm-set .join-form label{display: block;}
+ .adm-set h1{text-align: center; margin-bottom: 20px;}
+
+ .adm-menu{background: #fff; border-bottom: 1px solid #e1e1e1;} 
+ .adm-menu ul{text-align: center;}
+ .adm-menu ul li{display: inline-block; margin: 5px; border: 0px solid red;}
+
+ .adm-menu ul li:before{content: ""; display: inline-block; width: 1px; height: 10px; background: #000; margin-right: 15px;}
+ .adm-menu ul li:last-child:after{content: ""; display: inline-block; width: 1px; height: 10px; background: #000; margin-left: 15px;}
+ /* .adm-menu ul li:first-child:after{content: ""; display: none; } */
+ .adm-menu ul li a{display: inline-block; padding: 5px 10px; background: #fff; color: #000;}
+ .adm-menu ul li a:hover{color: #26649e; font-weight: bold;}
+ .adm-menu ul li.on a{color: #26649e; font-weight: bold;}
+
+/* 게시판 관리*/
+ .adm-board-box{max-width: 1200px; box-shadow: rgb(204, 204, 204) 1px 6px 11px 3px; margin: 0px auto; border-width: 1px; border-style: solid; border-color: rgb(225, 225, 225); border-image: initial; border-radius: 5px; padding: 35px; background: rgb(255, 255, 255);}
+ .adm-board-box h1{text-align: center; margin-bottom: 20px;}
+ .adm-board-box > .notice-table  ul li > div.no{width: 10%;}
+ .adm-board-box > .notice-table  ul li > div.subject{width: 45%;}
+ .adm-board-box > .notice-table  ul li > div.type{width: 15%;}
+ .adm-board-box > .notice-table  ul li > div.date{width: 15%;}
+ .adm-board-box > .notice-table  ul li > div.manage{width: 15%;}
+
+/* 게시판 생성*/
+ .adm-board{padding: 50px;}
+ .adm-board h1{text-align: center;}
+ .adm-board .adm-board-form label{display: block;}
+
+ .adm-board .adm-board-form {max-width: 1200px; margin: 0 auto; border: 1px solid #e1e1e1; border-radius: 5px; padding: 20px; background: #fff; box-shadow: 1px 6px 11px 3px #cccccc;}
+
+ .adm-board .adm-board-form input[type="text"]{width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:5px; margin-bottom: 10px;}
+ .adm-board .adm-board-form select{width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:5px; margin-bottom: 10px;}
+ .adm-board .adm-board-form ul li label{font-size: 12px; color: #000; margin-bottom: 8px;}
+ .adm-board .adm-board-form ul li {margin: 20px;}
+
+ .adm-member{background: #fff; max-width: 1200px;}
+ .adm-member ul.table-hd{text-align: center; border-top: 2px solid #000;}
+ .adm-member ul.table-bd{text-align: center;}
+ .adm-member ul.table-bd .subject{text-align: left;} 
+
+ .adm-member ul li{display: table; width: 100%;}
+ .adm-member ul li > div{display: table-cell; border-bottom: 1px solid #ccc; padding: 10px;} /*li 바로 밑에 있는 div에게만 해당한다는 의미 >없으면 모든 div에 해당*/
+
+ .adm-member ul li > div.no{width: 5%;}
+ .adm-member ul li > div.name{width: 10%;}
+ .adm-member ul li > div.phone{width: 10%;}
+ .adm-member ul li > div.email{width: 20%;}
+ .adm-member ul li > div.birth{width: 10%;}
+ .adm-member ul li > div.add{width: 25%;}
+ .adm-member ul li > div.date{width: 10%;}
+ .adm-member ul li > div.manage{width: 10%;}
+
+ .adm-member .bbs-btn-box{text-align: right; margin: 0 auto;}
+

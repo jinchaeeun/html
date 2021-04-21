@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>member_form</title>
+
+  <script src="../js/jquery-1.12.4.min.js"></script>
+  <script src="../js/jquery-ui.min.js"></script>
+
+  <script src="../js/swiper.min.js"></script>
+  <link rel="stylesheet" href="../js/swiper.min.css">
+
+  <link rel="stylesheet" href="../css/style.css">
+ </head>
+
+ <body>
+
+  <!--상단헤더-->
+  <div class="header">
+	  <div>
+		<!--logo-->
+		<div class="logo">	
+		<h1><a href="../index.html"><img src="../img/nike_w.png"></a></h1>
+		</div>
+		<div class="top-btn">
+			<ul>
+			<li><a href="../member/login.html">로그인</a></li>
+			<li><a href="../member/join.html">회원가입</a></li>
+			</ul>
+		</div>
+	  </div>
+  </div>
+
+    <!-- 관리자 메뉴-->
+    <div class="adm-menu">
+        <ul>
+            <li><a href="../adm/set.html">환경 설정</a></li>
+            <li><a href="../adm/board.html">게시판 관리</a></li>
+            <li><a href="../adm/member.html">회원 관리</a></li>
+            <li><a href="../adm/popup.html">팝업 관리</a></li>
+            <li><a href="../adm/banner.html">배너 관리</a></li>
+            <li><a href="../adm/booking.html">장소 관리</a></li>
+        </ul>
+
+    </div>
+<style>
+ .adm-set{padding: 50px;}
+ .adm-set h1{text-align: center;}
+ .adm-set .join-form label{display: block;}
+
+ .adm-set .join-form {max-width: 800px; margin: 0 auto; border: 1px solid #e1e1e1; border-radius: 5px; padding: 20px; background-color: #fff; box-shadow: 0px 0px 10px 0px rgba(88, 88, 88, 0.616);}
+ .adm-set .join-form input[type="text"]{width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:5px; margin-bottom: 10px;}
+ .adm-set .join-form select{width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:5px; margin-bottom: 10px;}
+ .adm-set .join-form ul li label{font-size: 12px; color: #000; margin-bottom: 8px;}
+ .adm-set .join-form ul li {margin: 20px;}
+
+ /*주소*/
+ .adm-set .join-form ul li.add span.zipcode input {width:70%;}
+ .adm-set .join-form ul li.add span.zipcode button {width: 30%; height: 40px; background: black; color: white; border: 0; border-radius:5px; padding-left: 1px; margin-bottom: 10px;}
+ .adm-set .join-form ul li.add span{margin-bottom: 5px; display: block;}
+
+ .adm-set .save-btn {text-align: center; margin-top: 20px;}
+ .adm-set .save-btn a{display: inline-block; background: #000; color: #fff; margin: 5px; padding: 10px 20px; border-radius:5px;}
+
+ .adm-set .join-form label{display: block;}
+ .adm-set h1{text-align: center; margin-bottom: 20px;}
+
+ .adm-menu{background: #fff; border-bottom: 1px solid #e1e1e1;} 
+ .adm-menu ul{text-align: center;}
+ .adm-menu ul li{display: inline-block; margin: 5px; border: 0px solid red;}
+
+ .adm-menu ul li:before{content: ""; display: inline-block; width: 1px; height: 10px; background: #000; margin-right: 15px;}
+ .adm-menu ul li:last-child:after{content: ""; display: inline-block; width: 1px; height: 10px; background: #000; margin-left: 15px;}
+ /* .adm-menu ul li:first-child:after{content: ""; display: none; } */
+ .adm-menu ul li a{display: inline-block; padding: 5px 10px; background: #fff; color: #000;}
+ .adm-menu ul li a:hover{color: #26649e; font-weight: bold;}
+ .adm-menu ul li.on a{color: #26649e; font-weight: bold;}
+</style>
+  <!--환경설정-->
+    <div class="adm-set">
+        <h1>회원관리</h1>
+    <div class="join-form">
+    <ul>
+        <li>
+            <label for="">사이트명</label>
+            <input type="text" placeholder="사이트명">
+        </li>
+        <li>
+            <label for="">대표자</label>
+            <input type="text" placeholder="대표자">
+        </li>
+        <li>
+            <label for="">이메일</label>
+            <input type="text" placeholder="이메일">
+        </li>
+        <li>
+            <label for="">연락처</label>
+            <input type="text" placeholder="연락처">
+        </li>
+        <li class="add">
+            <label for="">주소</label>
+                <span class="zipcode">
+                    <input type="text"><button>검색</button>
+                </span>
+                <span>
+                    <input type="text" placeholder="기본 주소">
+                </span>
+                <span>
+                    <input type="text" placeholder="상세 주소">
+                </span>
+        </li>
+    </ul>
+    </div>
+    <div class="save-btn">
+        <a href="../index.html">저장</a>
+    </div>
+
+</div>
+
+
+
+   <!--하단 정보 -->
+  <div class="footer">
+  	<div>
+	<h1>BAEJJANG-I_CHAEN</h1>
+	<p>대구 동구 동내로 70</p>
+	<p>대표자 : 진채은</p>
+	<p>이메일: abc00000@naver.com</p>
+	<p>연락처: 010-1111-2222</p>
+	<span>copyright(c) Light. All rights reserved.</span>
+	</div>
+  </div>
+
+ </body>
+</html>

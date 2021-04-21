@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="../css/style.css">
  </head>
 
+<style>
+
+</style>
  <body>
   <!--상단헤더-->
   <div class="header">
@@ -62,7 +65,7 @@
   <div class="contents">
 	  <div class="notice-wrab">
 		<div class="notice-box">
-			<h1>공지사항 리스트</h1>
+			<h1>MyPage List</h1>
 			<div class="search-box">
 				<input type="text">
 				<button>검색</button>
@@ -72,29 +75,40 @@
 				<ul class="table-hd">
 					<li>
 						<div class="no">번호</div>
-						<div class="subject">제목</div>
-						<div class="name">글쓴이</div>
-						<div class="data">등록일</div>
+						<div class="subject">장소명</div>
+						<div class="stats">상태</div>
+						<div class="reserv-date">예약일</div>
+						<div class="regist-date">등록일</div>
 					</li>	
 				</ul>
 				<ul class="table-bd">
+					<li> 
+						<div class="no">4</div>
+						<div class="subject"><a href="../booking/view.html">대구체육공원</a></div>
+						<div class="stats"><span class="ok">승인</span></div>
+						<div class="reserv-date">2021.04.21</div>
+						<div class="regist-date">2021.04.20</div>
+					</li>
 					<li>
 						<div class="no">3</div>
-						<div class="subject"><a href="../bbs/notice_view.html">공지사항입니다.</a></div>
-						<div class="name">관리자</div>
-						<div class="data">2021.04.20</div>
+						<div class="subject"><a href="../booking/view.html">직지사템플스테이</a></div>
+						<div class="stats"><span class="wait">승인 대기</span></div>
+						<div class="reserv-date">2021.04.20</div>
+						<div class="regist-date">2021.04.17</div>
 					</li>
 					<li>
 						<div class="no">2</div>
-						<div class="subject"><a href="../bbs/notice_view.html">공지사항입니다.</a></div>
-						<div class="name">관리자</div>
-						<div class="data">2021.04.20</div>
+						<div class="subject"><a href="../booking/view.html">휴스타 강의실</a></div>
+						<div class="stats"><span class="cancel">취소</span></div>
+						<div class="reserv-date">2021.04.15</div>
+						<div class="regist-date">2021.04.12</div>
 					</li>
 					<li>
 						<div class="no">1</div>
-						<div class="subject"><a href="../bbs/notice_view.html">공지사항입니다.</a></div>
-						<div class="name">관리자</div>
-						<div class="data">2021.04.20</div>
+						<div class="subject"><a href="../booking/view.html">Hello World!</a></div>
+						<div class="stats"><span class="dismiss">반려</span></div>
+						<div class="reserv-date">2021.04.15</div>
+						<div class="regist-date">2021.04.12</div>
 					</li>
 
 				</ul>

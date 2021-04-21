@@ -17,6 +17,10 @@
   <link rel="stylesheet" href="../css/style.css">
  </head>
 
+<style>
+
+</style>
+
  <body>
   <!--상단헤더-->
   <div class="header">
@@ -33,36 +37,23 @@
 		</div>
 	  </div>
   </div>
-
-  <!--메뉴-->
-  <div class="menu">
-	<div>
-		<ul>
-			<li>
-			<a href="">회사소개</a>
-			<ul class="submenu">
-				<li><a href="../about/intro.html">회사소개</a></li>
-				<li><a href="../about/location.html">오시는 길</a></li>
-			</ul>
-			</li>
-			<li>
-				<a href="">게시판</a>
-				<ul class="submenu">
-					<li><a href="../bbs/notice_list.html">공지사항</a></li>
-					<li><a href="../bbs/free_list.html">자유게시판</a></li>
-					<li><a href="../bbs/gallery_list.html">갤러리</a></li>
-				</ul>
-			</li>
-			<li><a href="../booking/list.html">장소예약</a></li>
-			<li><a href="../member/mypage.html">마이페이지</a></li>
-		</ul>
-	</div>
+  <!-- 관리자 메뉴-->
+  <div class="adm-menu">
+	<ul>
+		<li><a href="../adm/set.html">환경 설정</a></li>
+		<li><a href="../adm/board.html">게시판 관리</a></li>
+		<li><a href="../adm/member.html">회원 관리</a></li>
+		<li><a href="../adm/popup.html">팝업 관리</a></li>
+		<li><a href="../adm/banner.html">배너 관리</a></li>
+		<li><a href="../adm/booking.html">장소 관리</a></li>
+	</ul>
   </div>
+
   <!--content 시작-->
-  <div class="contents">
-	  <div class="notice-wrab">
-		<div class="notice-box">
-			<h1>공지사항 리스트</h1>
+  <div class="adm-contents">
+	  <div class="adm-board">
+		<div class="adm-board-box">
+			<h1>게시판 관리</h1>
 			<div class="search-box">
 				<input type="text">
 				<button>검색</button>
@@ -72,29 +63,36 @@
 				<ul class="table-hd">
 					<li>
 						<div class="no">번호</div>
-						<div class="subject">제목</div>
-						<div class="name">글쓴이</div>
-						<div class="data">등록일</div>
+						<div class="subject">게시판명</div>
+						<div class="type">게시판 타입</div>
+						<div class="date">등록일</div>
+						<div class="manage">
+							<a href="">수정</a>
+							<a href="">삭제</a>
+						</div>
 					</li>	
 				</ul>
 				<ul class="table-bd">
 					<li>
 						<div class="no">3</div>
-						<div class="subject"><a href="../bbs/notice_view.html">공지사항입니다.</a></div>
-						<div class="name">관리자</div>
-						<div class="data">2021.04.20</div>
+						<div class="subject">공지사항</div>
+						<div class="type">일반</div>
+						<div class="date">2021.04.20</div>
+						<div class="manage">관리</div>
 					</li>
 					<li>
 						<div class="no">2</div>
-						<div class="subject"><a href="../bbs/notice_view.html">공지사항입니다.</a></div>
-						<div class="name">관리자</div>
-						<div class="data">2021.04.20</div>
+						<div class="subject">갤러리</div>
+						<div class="type">갤러리</div>
+						<div class="date">2021.04.20</div>
+						<div class="manage">관리</div>
 					</li>
 					<li>
 						<div class="no">1</div>
-						<div class="subject"><a href="../bbs/notice_view.html">공지사항입니다.</a></div>
-						<div class="name">관리자</div>
-						<div class="data">2021.04.20</div>
+						<div class="subject">자유게시판</div>
+						<div class="type">일반</div>
+						<div class="date">2021.04.20</div>
+						<div class="manage">관리</div>
 					</li>
 
 				</ul>
@@ -113,7 +111,7 @@
 			</div>
 
 			<div class="bbs-btn-box">
-				<a href="../bbs/notice_write.html">글쓰기</a>
+				<a href="../adm/board_form.html">게시판 생성</a>
 			</div>
 
 		</div>
