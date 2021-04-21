@@ -218,14 +218,14 @@ img{max-width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
 	label{} */
 
 /*게시판 뷰*/
-.view h2{margin-bottom: 10px;}
-.view > span {display: inline-block; margin-bottom: 10px;}
+ .view h2{margin-bottom: 10px;}
+ .view > span {display: inline-block; margin-bottom: 10px;}
 
-.view .view-con{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 20px; background: #fff;}
-.view .file-down a{display: block; margin: 5px; padding: 5px; background: #e1e1e1;}
+ .view .view-con{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 20px; background: #fff;}
+ .view .file-down a{display: block; margin: 5px; padding: 5px; background: #e1e1e1;}
 
-.bbs-btn-box a.del{background: #d77300;}
-.bbs-btn-box a.mod{background: #d77300;}
+ .bbs-btn-box a.del{background: #d77300;}
+ .bbs-btn-box a.mod{background: #d77300;}
 
 /*갤러리 리스트*/
  .gallery-table > ul{overflow: hidden;}
@@ -235,3 +235,18 @@ img{max-width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
  .gallery-table .thum{ padding-bottom: 0; height: 280px; overflow:hidden;} /*크기를 벗어나는 이미지는 자르기*/
  .gallery-table .info a{display: block; font-size: 15px;}
  .gallery-table .info span{color: #888;}
+
+
+ /*장소예약 리스트*/
+ .booking-table > ul{overflow: hidden;}
+ .booking-table > ul > li{margin-bottom: 20px; overflow:hidden; background: #fff; border: 1px solid #e1e1e1;}
+ .booking-table > ul > li > div{padding: 10px; float: left;}
+
+ .booking-table .thum {text-align: center; width: 15%;}
+ .booking-table .thum a{display: block; padding: 5px; background: #fff; border: 1px solid #e1e1e1; max-height: 220px; overflow:hidden;}
+ .booking-table .thum img{max-height: 220px;}
+ 
+ .booking-table .info {width: 85%;}
+ .booking-table .info a{display: block; font-size: 17px;}
+ .booking-table .info p{font-size:14px; color: #444; margin: 10px 0; max-height: 55px; overflow:hidden; min-height: 55px;}
+ .booking-table .info span{color: #888;}

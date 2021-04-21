@@ -235,3 +235,68 @@ img{max-width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
  .gallery-table .thum{ padding-bottom: 0; height: 280px; overflow:hidden;} /*크기를 벗어나는 이미지는 자르기*/
  .gallery-table .info a{display: block; font-size: 15px;}
  .gallery-table .info span{color: #888;}
+
+
+ /*장소예약 리스트*/
+ .booking-table > ul{overflow: hidden;}
+ .booking-table > ul > li{margin-bottom: 20px; overflow:hidden; background: #fff; border: 1px solid #e1e1e1;}
+ .booking-table > ul > li > div{padding: 10px; float: left;}
+
+ .booking-table .thum {text-align: center; width: 15%;}
+ .booking-table .thum a{display: block; padding: 5px; background: #fff; border: 1px solid #e1e1e1; max-height: 220px; overflow:hidden;}
+ .booking-table .thum img{max-height: 220px;}
+ 
+ .booking-table .info {width: 85%;}
+ .booking-table .info a{display: block; font-size: 17px;}
+ .booking-table .info p{font-size:14px; color: #444; margin: 10px 0; max-height: 55px; overflow:hidden; min-height: 55px;}
+ .booking-table .info span{color: #888;}
+
+ /*장소예약 상세정보 booking/view.html*/
+ 	.booking-view{padding-top: 20px;}
+
+	.booking-view .photo-box{}
+	.booking-view > div{}
+	.booking-view .photo-box > div{}
+	
+	.booking-view .photo-box{overflow: hidden;}
+	.booking-view .photo-box .view-photo{float: left; width: 50%; height: 310px; padding: 5px;}	
+	/*사이 간격을 줄 때 padding으로 내부. width 50, 50이기 때문에 margin을 주면 한 요소가 아래로 내려가버린다.*/
+	.booking-view .photo-box .calendar{float: right; width: 50%; height: 310px; padding: 5px;}
+	
+	.cal-box{border: 1px solid #e1e1e1;}
+	.cal-box ul{overflow:hidden; padding: 5px;}
+	.cal-box ul li{float: left; width: 14.28%; text-align: center;}     /*가로로 놓기위해서 width 설정*/
+	.cal-box ul li:first-child a span{color: #f12c00;}                  /*ntn-child(1)*/
+	.cal-box ul li:last-child a span{color: #0077f1;}
+
+	.cal-box ul li a{display: block; padding: 4px 5px;}
+	.cal-box ul li a span.off{color: #aaa;}
+	.cal-box ul li a span.today{color: white; background: #000; padding: 5px;}
+	.cal-box ul li a span.selected{color: #fff; background: gray; padding: 5px;}
+	.cal-box ul li a span:hover{color: #d77300; background: #000; padding: 5px;}
+	
+	.cal-hd{text-align: center;}
+	.cal-hd span{margin: 10px; display: inline-block; padding: 10px;}
+	.cal-hd span.month{font-size:19px; font-weight: bold;}
+
+	/*
+	inline-block //요소이면서 영역 박스, margin과 padding을 정확하게 사용하기 위함.
+
+	inline //요소
+	<span></span>
+	<u></u>
+	<i></i>
+	<b></b>
+	<a href=""></a>
+
+	block //영역
+	<div></div>
+	<p></p>
+	<ul></ul>
+	<li></li>
+	*/
+
+	.view-btn {text-align: right; padding: 5px;}
+	.view-btn a{display: inline-block; padding: 5px 10px; background: #000; color: #fff; transition: all 0.3s;}
+	.view-btn a:hover{ background: #d77300; }
+	.view-detail{background: #fff; border: 1px solid #ccc; margin: 10px 5px; padding: 20px; min-height: 200px;}
