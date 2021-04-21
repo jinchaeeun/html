@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>0419_lecture</title>
+
+  <script src="../js/jquery-1.12.4.min.js"></script>
+  <script src="../js/jquery-ui.min.js"></script>
+
+  <script src="../js/swiper.min.js"></script>
+  <link rel="stylesheet" href="../js/swiper.min.css">
+
+  <link rel="stylesheet" href="../css/style.css">
+ </head>
+
+ <body>
+  <!--상단헤더-->
+  <div class="header">
+	  <div>
+		<!--logo-->
+		<div class="logo">	
+		<h1><a href="../index.html"><img src="../img/nike_w.png"></a></h1>
+		</div>
+		<div class="top-btn">
+			<ul>
+			<li><a href="../member/login.html">로그인</a></li>
+			<li><a href="../member/join.html">회원가입</a></li>
+			</ul>
+		</div>
+	  </div>
+  </div>
+
+  <!--메뉴-->
+  <div class="menu">
+	<div>
+		<ul>
+			<li>
+			<a href="">회사소개</a>
+			<ul class="submenu">
+				<li><a href="../about/intro.html">회사소개</a></li>
+				<li><a href="../about/location.html">오시는 길</a></li>
+			</ul>
+			</li>
+			<li>
+				<a href="">게시판</a>
+				<ul class="submenu">
+					<li><a href="../bbs/notice_list.html">공지사항</a></li>
+					<li><a href="../bbs/free_list.html">자유게시판</a></li>
+					<li><a href="../bbs/gallery_list.html">갤러리</a></li>
+				</ul>
+			</li>
+			<li><a href="../booking/list.html">장소예약</a></li>
+			<li><a href="../member/mypage.html">마이페이지</a></li>
+		</ul>
+	</div>
+  </div>
+  <!--content 시작-->
+  <div class="contents">
+	  <div class="notice-wrab">
+		<div class="notice-box">
+			<h1>자유게시판 리스트</h1>
+			<div class="search-box">
+				<input type="text">
+				<button>검색</button>
+			</div>
+
+			<div class="notice-table">
+				<ul class="table-hd">
+					<li>
+						<div class="no">번호</div>
+						<div class="subject">제목</div>
+						<div class="name">글쓴이</div>
+						<div class="data">등록일</div>
+					</li>	
+				</ul>
+				<ul class="table-bd">
+					<li>
+						<div class="no">3</div>
+						<div class="subject"><a href="../bbs/free_view.html">공지사항입니다.</a></div>
+						<div class="name">관리자</div>
+						<div class="data">2021.04.20</div>
+					</li>
+					<li>
+						<div class="no">2</div>
+						<div class="subject"><a href="../bbs/free_view.html">공지사항입니다.</a></div>
+						<div class="name">관리자</div>
+						<div class="data">2021.04.20</div>
+					</li>
+					<li>
+						<div class="no">1</div>
+						<div class="subject"><a href="../bbs/free_view.html">공지사항입니다.</a></div>
+						<div class="name">관리자</div>
+						<div class="data">2021.04.20</div>
+					</li>
+
+				</ul>
+			</div>
+			
+			<div class="paging">
+				<ul>
+					<li><a href="#none">처음으로</a></li>
+					<li><a href="#none">이전</a></li>
+					<li class="on"><a href="#none">1</a></li>
+					<li><a href="#none">2</a></li>
+					<li><a href="#none">3</a></li>
+					<li><a href="#none">다음</a></li>
+					<li><a href="#none">마지막</a></li>
+				</ul>
+			</div>
+
+			<div class="bbs-btn-box">
+				<a href="../bbs/notice_write.html">글쓰기</a>
+			</div>
+
+		</div>
+	  </div>
+  </div>
+<!--contents 끝-->
+
+  <!--하단 정보 -->
+  <div class="footer">
+  	<div>
+	<h1>BAEJJANG-I_CHAEN</h1>
+	<p>대구 동구 동내로 70</p>
+	<p>대표자 : 진채은</p>
+	<p>이메일: abc00000@naver.com</p>
+	<p>연락처: 010-1111-2222</p>
+	<span>copyright(c) Light. All rights reserved.</span>
+	</div>
+  </div>
+ </body>
+</html>

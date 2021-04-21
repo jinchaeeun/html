@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>0419_lecture</title>
+
+  <script src="../js/jquery-1.12.4.min.js"></script>
+  <script src="../js/jquery-ui.min.js"></script>
+
+  <script src="../js/swiper.min.js"></script>
+  <link rel="stylesheet" href="../js/swiper.min.css">
+
+  <link rel="stylesheet" href="../css/style.css">
+ </head>
+
+ <body>
+  <!--상단헤더-->
+  <div class="header">
+	  <div>
+		<!--logo-->
+		<div class="logo">	
+		<h1><a href="../index.html"><img src="../img/nike_w.png"></a></h1>
+		</div>
+		<div class="top-btn">
+			<ul>
+			<li><a href="../member/login.html">로그인</a></li>
+			<li><a href="../member/join.html">회원가입</a></li>
+			</ul>
+		</div>
+	  </div>
+  </div>
+
+  <!--메뉴-->
+  <div class="menu">
+	<div>
+		<ul>
+			<li>
+			<a href="">회사소개</a>
+			<ul class="submenu">
+				<li><a href="../about/intro.html">회사소개</a></li>
+				<li><a href="../about/location.html">오시는 길</a></li>
+			</ul>
+			</li>
+			<li>
+				<a href="">게시판</a>
+				<ul class="submenu">
+					<li><a href="../bbs/notice_list.html">공지사항</a></li>
+					<li><a href="../bbs/free_list.html">자유게시판</a></li>
+					<li><a href="../bbs/gallery_list.html">갤러리</a></li>
+				</ul>
+			</li>
+			<li><a href="../booking/list.html">장소예약</a></li>
+			<li><a href="../member/mypage.html">마이페이지</a></li>
+		</ul>
+	</div>
+  </div>
+  <!--content 시작-->
+  <div class="contents">
+	  <div class="notice-wrab">
+		<div class="notice-box">
+			<h1>갤러리 리스트</h1>
+			<div class="search-box">
+				<input type="text">
+				<button>검색</button>
+			</div>
+<style>
+	.gallery-table > ul{overflow: hidden;}
+	.gallery-table > ul > li{width: 25%; float:left; margin-bottom: 20px;} /* width 비율에 맞춰 갯수 조절 3개 33.3%*/
+	.gallery-table > ul > li:nth-child(4n+1){clear:both;} /*4번째 다음에 나오는 것 (4의 배수+1) 취소: 왼쪽, 오른쪽을 취소*/
+	.gallery-table > ul > li > div{padding: 10px;}
+	.gallery-table .thum{ padding-bottom: 0; height: 280px; overflow:hidden;} /*크기를 벗어나는 이미지는 자르기*/
+	.gallery-table .info a{display: block; font-size: 15px;}
+	.gallery-table .info span{color: #888;}
+</style>
+
+			<div class="gallery-table">
+				<ul class="table-bd">
+					<li>
+						<div class="thum">
+							<a href="./gallery_veiw.html"><img src="../img/r01.jpg" alt=""></a>
+							<div class="info">
+								<a href="">갤러리 제목입니다.</a>
+								<span>2021-04-20</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="thum">
+							<a href="./gallery_veiw.html"><img src="../img/r02.jpg" alt=""></a>
+							<div class="info">
+								<a href="">갤러리 제목입니다.</a>
+								<span>2021-04-20</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="thum">
+							<a href="./gallery_veiw.html"><img src="../img/r03.jpg" alt=""></a>
+							<div class="info">
+								<a href="">갤러리 제목입니다.</a>
+								<span>2021-04-20</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="thum">
+							<a href="./gallery_veiw.html"><img src="../img/r04.jpg" alt=""></a>
+							<div class="info">
+								<a href="">갤러리 제목입니다.</a>
+								<span>2021-04-20</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="thum">
+							<a href="./gallery_veiw.html"><img src="../img/r05.jpg" alt=""></a>
+							<div class="info">
+								<a href="">갤러리 제목입니다.</a>
+								<span>2021-04-20</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="paging">
+				<ul>
+					<li><a href="#none">처음으로</a></li>
+					<li><a href="#none">이전</a></li>
+					<li class="on"><a href="#none">1</a></li>
+					<li><a href="#none">2</a></li>
+					<li><a href="#none">3</a></li>
+					<li><a href="#none">다음</a></li>
+					<li><a href="#none">마지막</a></li>
+				</ul>
+			</div>
+
+			<div class="bbs-btn-box">
+				<a href="../bbs/gallery_write.html">글쓰기</a>
+			</div>
+
+		</div>
+	  </div>
+  </div>
+<!--contents 끝-->
+
+  <!--하단 정보 -->
+  <div class="footer">
+  	<div>
+	<h1>BAEJJANG-I_CHAEN</h1>
+	<p>대구 동구 동내로 70</p>
+	<p>대표자 : 진채은</p>
+	<p>이메일: abc00000@naver.com</p>
+	<p>연락처: 010-1111-2222</p>
+	<span>copyright(c) Light. All rights reserved.</span>
+	</div>
+  </div>
+ </body>
+</html>

@@ -4,7 +4,7 @@
 html {overflow-y:scroll}
 body {margin:0;padding:0;font-size:0.75em; font-family:'Nanum Gothic', 'Malgun Gothic', dotum, sans-serif; background:#f5f5f5;}
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
-h1, h2, h3, h4, h5, h6 {font-size:17px; font-family:'NanumSquare','Malgun Gothic', dotum, sans-serif}
+h1, h2, h3, h4, h5, h6 {font-size:24px; font-family:'NanumSquare','Malgun Gothic', dotum, sans-serif}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
 
 ul, dl,dt,dd {margin:0;padding:0;list-style:none}
@@ -20,6 +20,9 @@ p {margin:0;padding:0;word-break:break-all}
 hr {display:none}
 pre {overflow-x:scroll;font-size:1.1em}
 a {color:#000;text-decoration:none}
+
+img{max-width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
 
 *, :after, :before {
     -webkit-box-sizing: border-box;
@@ -44,15 +47,21 @@ a {color:#000;text-decoration:none}
  .header .top-btn ul{overflow:hidden; margin-top:30px;}
  .header .top-btn ul li{float:left; margin-left:10px;}
  .header .top-btn ul li a{font-size:14px; color:#fff; display: block; padding: 5px;}
-
- .menu{}
+/*메인 메뉴*/
+ .menu{border-bottom: 1px solid #ccc; background: black; }
  .menu > div{max-width:1200px; margin: 0 auto;}
- .menu > div ul{text-align:center;}
+ .menu > div > ul{text-align:center; border-top: 2px solid #d77300; }
  /*한줄로 만들기*/
- .menu > div ul > li{display: inline-block;}
+ .menu > div > ul > li{display: inline-block; position: relative;} /*이 li가 submenu의 absoulte의 기준이된다. 중앙 정렬로 만들게하기위해서 */
  /*WIDTH:*/
- .menu > div ul > li a{display: block; padding:10px; font-size:17px; margin:10px 40px;}
- .menu > div ul > li a:hover{color:#1781d0}
+ .menu > div > ul > li a{display: block; padding:10px; font-size:17px; margin:10px 40px; color: white;}
+ .menu > div > ul > li a:hover{color:#d77300}
+ /*서브 메뉴*/
+ .menu > div > ul > li > ul.submenu{position: absolute; z-index: 9; background: white; display: none; width: 100%; border: 1px solid #ccc;} /*absolute는 공중에 띄우는 것처럼 보이지만 항상 기준이 있어야한다. z-index 화면 보여주는 레벨 순서.*/
+ .menu > div > ul > li > ul.submenu > li{display: block; border-bottom: 1px solid black; }
+ .menu > div ul > li:hover ul.submenu{display: block;}
+ .menu > div ul > li ul.submenu a{margin: 5px; font-size: 14px; color: black;} /*margin값으로 넓힘*/
+ .menu > div ul > li ul.submenu a:hover{color:#d77300}
 
  /*배너*/
  .banner .swiper-container{max-width:1200px; margin:0 auto;}
@@ -62,7 +71,7 @@ a {color:#000;text-decoration:none}
  .tap-menu ul{overflow:hidden; text-align:center;}
  .tap-menu ul li{float:left; width:33.33%; background: black;}
  .tap-menu ul li a{display:block; padding:5px 10px; border-bottom: 1px solid #e1e1e1; font-size:14px; color: #888;}
- .tap-menu ul li.on a{color:white; font-weight:bold; border-bottom: 2px solid #fe5f01;}
+ .tap-menu ul li.on a{color:white; font-weight:bold; border-bottom: 2px solid #d77300;}
  .tap-menu ul li:hover a{color:white; }
 
  .tab-con{}
@@ -95,7 +104,7 @@ a {color:#000;text-decoration:none}
  .login-box .login li {margin: 5px;}
  .login-box .login li input {width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; border-radius:15px;}
  .login-box .login li button{width: 100%; height: 40px; background: black; color: white; border: 0; border-radius:15px; transition: all 0.3s;} /*transition 애니메이션 효과 자연스럽게하기위해 0.3초동안 변경한다*/
- .login-box .login li button:hover{background: #e1e1e1; border-radius:0;}
+ .login-box .login li button:hover{background: #e1e1e1; border-radius:0; font-size: 14px;}
  
  .login-box .login-btn {text-align: center; margin-top: 20px; transition: all 0.3s;}
  .login-box .login-btn:hover {color: black; font-size: 14px;}
@@ -129,4 +138,100 @@ a {color:#000;text-decoration:none}
  .join-box .join-btn {text-align: center; margin-top: 20px;}
  .join-box .join-btn a{display: inline-block; background: #000; color: #fff; margin: 5px; padding: 10px 20px; border-radius:15px;}
 
+/* 공지사항 */
+ .contents{max-width: 1200px; margin: 0 auto;}
+ .notice-box h1{text-align: center; margin: 20px 0;}
+ .search-box {text-align: right; margin: 10px 0;} /*box 자체 정렬 float:right; 요소들을 정리할 때는 text-align*/
+ .search-box input{width:100px; border: 1px solid #ccc; height: 30px;}
+ .search-box button{border: 1px solid #000; height: 30px; padding: 0 20px; background: #000; color: #fff;}
+ .notice-table{background: #fff;}
+ .notice-table ul.table-hd{text-align: center; border-top: 2px solid #000;}
+ .notice-table ul.table-bd{text-align: center;}
+ .notice-table ul.table-bd .subject{text-align: left;} 
 
+ .notice-table ul li{display: table; width: 100%;}
+ .notice-table ul li > div{display: table-cell; border-bottom: 1px solid #ccc; padding: 10px;} /*li 바로 밑에 있는 div에게만 해당한다는 의미 >없으면 모든 div에 해당*/
+ /*1. class 이름으로 주기*/
+ .notice-table ul li > div.no{width: 10%;}
+ .notice-table ul li > div.subject{width: 50%;}
+ .notice-table ul.table-bd .subject a:hover{text-decoration: underline; color: #d77300;}
+ .notice-table ul li > div.name{width: 20%;}
+ .notice-table ul li > div.data{width: 20%;}
+ /*2. class 안주고 사용하는 법. 단점은 이름 순서를 바꾸었을 때*/
+ /*
+ .notice-table ul li > div:nth-child(1){width: 10%;}
+ .notice-table ul li > div:nth-child(2){width: 50%;}
+ .notice-table ul li > div:nth-child(3){width: 20%;}
+ .notice-table ul li > div:nth-child(4){width: 20%;}
+ */	
+ .paging{margin: 20px 0;}
+ .paging ul{text-align: center;}
+ .paging ul li{display: inline-block; margin: 5px 0px;}
+ .paging ul li a{display: block; padding: 5px 10px; border: 1px solid black; color:white; background: black;}
+ .paging ul li.on a{background: #fff; color: black; border: 1px solid #000;}
+
+ .bbs-btn-box{text-align: right; margin: 10px 0;}
+ .bbs-btn-box a{display: inline-block; background: #000; color: #fff; padding: 5px 10px;}
+
+
+/*공지사항 글쓰기*/
+.notice-box .write-form{max-width: 800px; margin: 0 auto; border: 1px solid #e1e1e1; border-radius: 25px; padding: 35px; background: #fff; box-shadow: 1px 6px 11px 3px #cccccc;}
+
+/* 가로 정렬하는 법  */
+	.write-form{max-width: 880px; margin: 0 auto;}
+	* 세로 정렬 block, 가로 정렬 inline-block float 써서 딱 붙게 만들던지
+	.notice-box .write-form label{float: left; display: inlen-block; width: 10%;}
+	.write-form label{display: block;} 
+	.write-form input[type="text"]{width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; }
+	.write-form textarea{width: 100%; height: 40px; padding: 5px; border: 1px solid #ccc; }
+	.write-form label.check-txt{display: inline-block;}
+	.write-form li{ margin-bottom: 10px; }
+	.write-form li.chk-box{background: #fff; padding: 10px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+	.write-f-btn{max-width: 800px; margin: 20px auto;}
+
+/* 세로 정렬하기 */
+	/*inline-block은 요소간 틈이 생겨서 잘 안되니 차라리 table 속성을 주면 된다. li에 table, textarea에 table-cell
+	차라리 padding으로 값 조절하거나..
+	*/
+	/*
+	.write-form{max-width: 800px; margin: 0 auto;}
+	.write-form label{display: inline-block; vertical-align: middle;} 
+	.write-form input[type="text"]{width: 90%; height: 30px; border: 1px solid #ccc; }
+	.write-form textarea{width: 90%; height: 150px; border: 1px solid #ccc; vertical-align: middle;}
+	.write-form label.check-txt{display: inline-block;}
+	.write-form li{ margin-bottom: 10px; }
+
+	.write-form li.chk-box{width: 95%;  padding: 10px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+	.write-f-btn{max-width: 800px; margin: 20px auto;}
+	*/
+
+/* 나중에 보고 추가하기 (회원가입 툴처럼)
+	.notice-box h1{text-align:center; margin-bottom: 20px;}
+
+	.notice-box .write-form .attachment li{display: block; text-align: left; }
+	.notice-box .write-form input[type="file"] {width:100%; background-color: lightgray; color: black;}
+
+	.notice-box .write-form input[type="checkbox"]{text-align: right; margin-top: 10px;}
+	.notice-box .write-form label[for="check-notice"] {text-align: right; margin-top: 10px;}
+	
+	.write-form{border:1px solid red; max-width: 800px; margin: 0 auto;}
+	label{} */
+
+/*게시판 뷰*/
+.view h2{margin-bottom: 10px;}
+.view > span {display: inline-block; margin-bottom: 10px;}
+
+.view .view-con{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 20px; background: #fff;}
+.view .file-down a{display: block; margin: 5px; padding: 5px; background: #e1e1e1;}
+
+.bbs-btn-box a.del{background: #d77300;}
+.bbs-btn-box a.mod{background: #d77300;}
+
+/*갤러리 리스트*/
+ .gallery-table > ul{overflow: hidden;}
+ .gallery-table > ul > li{width: 25%; float:left; margin-bottom: 20px;} /* width 비율에 맞춰 갯수 조절 3개 33.3%*/
+ .gallery-table > ul > li:nth-child(4n+1){clear:both;} /*4번째 다음에 나오는 것 (4의 배수+1) 취소: 왼쪽, 오른쪽을 취소*/
+ .gallery-table > ul > li > div{padding: 10px;}
+ .gallery-table .thum{ padding-bottom: 0; height: 280px; overflow:hidden;} /*크기를 벗어나는 이미지는 자르기*/
+ .gallery-table .info a{display: block; font-size: 15px;}
+ .gallery-table .info span{color: #888;}
