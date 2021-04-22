@@ -17,10 +17,6 @@
   <link rel="stylesheet" href="../css/style.css">
  </head>
 
-<style>
-
-</style>
-
  <body>
   <!--상단헤더-->
   <div class="header">
@@ -66,10 +62,8 @@
 						<div class="subject">게시판명</div>
 						<div class="type">게시판 타입</div>
 						<div class="date">등록일</div>
-						<div class="manage">
-							<a href="">수정</a>
-							<a href="">삭제</a>
-						</div>
+						<div class="manage">관리</div>
+							
 					</li>	
 				</ul>
 				<ul class="table-bd">
@@ -78,21 +72,30 @@
 						<div class="subject">공지사항</div>
 						<div class="type">일반</div>
 						<div class="date">2021.04.20</div>
-						<div class="manage">관리</div>
+						<div class="manage">
+							<a href="../adm/member_form.html">수정</a>
+							<a href="">삭제</a>
+						</div>
 					</li>
 					<li>
 						<div class="no">2</div>
 						<div class="subject">갤러리</div>
 						<div class="type">갤러리</div>
 						<div class="date">2021.04.20</div>
-						<div class="manage">관리</div>
+						<div class="manage">
+							<a href="">수정</a>
+							<a href="">삭제</a>
+						</div>
 					</li>
 					<li>
 						<div class="no">1</div>
 						<div class="subject">자유게시판</div>
 						<div class="type">일반</div>
 						<div class="date">2021.04.20</div>
-						<div class="manage">관리</div>
+						<div class="manage">
+							<a href="">수정</a>
+							<a href="">삭제</a>
+						</div>
 					</li>
 
 				</ul>

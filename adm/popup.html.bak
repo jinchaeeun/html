@@ -54,7 +54,28 @@
 				<input type="text">
 				<button>검색</button>
 			</div>
+<style>
+ .adm-popup{background: #fff;}
+ .adm-popup ul.table-hd{text-align: center; border-top: 2px solid #000;}
+ .adm-popup ul.table-bd{text-align: center;}
+ .adm-popup ul.table-bd .subject{text-align: left;} 
+ .adm-popup ul li{display: table; width: 100%;}
+ .adm-popup ul li > div{display: table-cell; border-bottom: 1px solid #ccc; padding: 10px;} 
 
+ .adm-popup ul li > div.no{width: 10%;}
+ .adm-popup ul li > div.subject{width: 40%;}
+ .adm-popup ul li > div.s-date{width: 20%;}
+ .adm-popup ul li > div.use{width: 10%;}
+ .adm-popup ul li > div.date{width: 10%;}
+ .adm-popup ul li > div.manage{width: 10%;}
+
+ .adm-popup ul li > div.set-btn a{display: inline-block; background: #000; padding: 5px; margin: 2px;}
+ .adm-popup ul li > div.set-btn a:hover{background: #999;}
+
+ .adm-popup ul li > div.subject a{font-weight: bold; font-size: 14px;}
+ .adm-popup ul li > div.subject a:hover{text-decoration: underline; color: #26649e;}
+
+</style>
 			<div class="adm-popup">
 				<ul class="table-hd">
 					<li>

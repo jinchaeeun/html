@@ -1,0 +1,24 @@
+.header{background: #d77300; overflow:hidden;}
+
+.header .top-btn ul{ margin-top: 36px; margin-left: 30px;}
+
+.header .logo h1 img{ width: 80px;}
+
+.menu > div > ul {
+    text-align: center;
+    border-top: 2px solid #d77300;
+    background: white;
+}
+
+.menu > div > ul > li a {
+    color: black;
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    margin: 10px 40px;
+    /* color: white; */
+}
+
+.header .top-btn ul li a{
+    padding: 5px;
+}
