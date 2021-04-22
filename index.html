@@ -63,31 +63,13 @@
 	  </div>
   </div>
  
+<style>
+</style>
 
- <style>
- 
- 	.m-menu {position: absolute; right: 10px; top: 56px; z-index:9999;}
-	.m-menu a{display: block; width: 25px; height: 20px; position: relative;}
-	.m-menu a span{width: 100%; height: 3px; background: white; display: block; position: absolute; transition: all 0.3s;}
-	.m-menu a span:nth-child(1){top: 0px;}
-	.m-menu a span:nth-child(2){top: 8px;}
-	.m-menu a span:nth-child(3){bottom: 0px;}
-	
-	.m-menu a.active span:nth-child(1){
-		transform:rotate(-45deg) translateY(12px); 각도 조절. transform 구문엔 , ; 불가 주의
-	}
-	.m-menu a.active span:nth-child(2){opacity: 0;}
-	.m-menu a.active span:nth-child(3){
-		transform:rotate(45deg) translateY(-12px);
-	} 
-	
-	/* 다양한 햄버거 버튼 https://codepen.io/jaehee/pen/PzbVpG */
-
- </style>
  <!--모바일 메뉴-->
 <div class="m-menu">
 	<div>
-		<a href="#none">
+		<a href="#none" class="menu-trigger type11">
 			<span></span>
 			<span></span>
 			<span></span>
@@ -96,9 +78,10 @@
 </div>
 <script>
 	//a 태그에 클래스를 넣어줘라. 토글은 클릭 시 빠졌다 들어갔다 반복하는거.
-	$('.m-menu a').click(
+	$('.menu-trigger').click(
 		 function(){
-			$(this).toggleClass('active');
+			$(this).toggleClass('active-11');
+			$('html').toggleClass('active-11'); //html 태그에다가 클래스를 줌
 		 }
 	)
 </script>

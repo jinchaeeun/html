@@ -478,3 +478,9 @@ block //영역
  .popup-box img{max-width: 500px;} /* 이미지 최대 조절 */
  .popup-box .pop-btn{text-align: right; background: #fff;}
  .popup-box .pop-btn a{display: inline-block; background: #000; color: #fff; padding: 5px;}
+
+
+html.active-11 .menu{left: 0%;}
+
+.m-menu{display:none;}
+
